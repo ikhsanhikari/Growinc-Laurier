@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title >Halaman Bunga</title>
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+	<meta name="author" content="Author for Tutorial-webdesign.com" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+	
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+	<link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
+  	<link href="assets/animate.css" rel="stylesheet">
+  	<link href="assets/style.css" rel="stylesheet">
+  	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+  	<link rel="stylesheet" type="text/css" href="font/Just_tell_me_what_regular.otf">
+  	<link rel="stylesheet" type="text/css" href="font/Just_tell_me_what_regular_Italic.otf">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body style="overflow: visible;">
+	<div class="row">
+		<div class="col-md-2">
+			<div class="row btn-bunga">
+				<div class="btn-merah">
+					<img src="img/btn-merah.png">	
+				</div>
+				<div class="btn-gatal">
+					<img src="img/btn-gatal.png">
+				</div>
+				<div class="btn-ruam">
+					<img src="img/btn-ruam.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-9">
+			<div class="nah_kenalin">
+				Nah, kenali dulu yuk tanda - tandanya!
+			</div>
+			<div class="kata-standard">
+				<img  id="kata" src="img/kata-standard.png">
+			</div>
+			<div class="smart-obj">
+				<img src="img/bunga-smart-object.png">
+			</div>
+			<div class="bunga">
+				<img id="bungagbr" src="img/bunga-standard.png">
+			</div>
+
+		</div>
+		<div class="col-md-1">
+			<div class="row menu_kok_bisa" >
+				<a href=""><img src="img/btn-story.png" class="responsive"></a>
+			</div>
+			<br>
+			<div class="row">
+				<a href=""><img src="img/btn-meter.png" class="responsive"></a>
+			</div>
+			<br>
+			<div class="row">
+				<a href=""><img src="img/btn-ask.png" class="responsive"></a>
+			</div>
+			<br>
+			<div class="row">
+				<a href=""><img src="img/btn-try.png" class="responsive"></a>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		$(".btn-ruam").click(function(){
+			$("#bungagbr").attr("src","img/bunga-ruam.png");
+			$(".kata-standard").css("margin-left","500px");
+			$("#kata").attr("src","img/kata-ruam.png");
+
+		});
+		$(".btn-gatal").click(function(){
+			$("#bungagbr").attr("src","img/bunga-gatal.png");
+			$(".kata-standard").css("margin-left","500px");
+			$("#kata").attr("src","img/kata_gatal.png");
+		});
+		$(".btn-merah").click(function(){
+			$("#bungagbr").attr("src","img/bunga-merah.png");
+			$("#kata").attr("src","img/kata-merah.png");
+			$(".kata-standard").css("margin-left","0px");
+		});
+		$('.btn-bunga').addClass('animated fadeInLeft');
+		$('#bungagbr').addClass('animated fadeInUp');
+		$('.kata-standard').addClass('animated fadeInUp');
+
+		$(function () {
+		$('.nah_kenalin').textillate(
+			{ in: 
+				{ effect: 'rollIn' ,
+				delayScale: 1.0,
+			} 
+		});
+		
+	});
+	</script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="assets/jquery.fittext.js"></script>
+	<script src="assets/jquery.lettering.js"></script>
+	<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+	<script src="jquery.textillate.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title >Panah</title>
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+	<meta name="author" content="Author for Tutorial-webdesign.com" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+	
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+	<link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
+  	<link href="assets/animate.css" rel="stylesheet">
+  
+  	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style_solusi.css">
+	<link rel="stylesheet" href="../font/Just_tell_me_what_regular.otf" type='text/css'>
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-11">
+			<div>
+				<h1 class="huruf tlt">Nah,sekarang kamu mau kan memberi</h1>
+				<h1 class="huruf2 tlt2">perhatian lebih agar terhindar dari iritasi?</h1>
+				<h1 class="huruf2 tlt3">Caranyan nggk susah,koq!</h1>
+			</div>
+			<div style="margin-left: 50%; margin-top: 5%;" class="animated bounceInDown delay-5s">
+				<img src="img/anakPanah.png" class="responsive">
+			</div>
+		</div>
+		
+	</div>
+	
+	<script type="text/javascript">
+		$(function () {
+		$('.tlt').textillate(
+			{ 
+				in: 
+				{ 
+					effect: 'rollIn' ,
+					delayScale: 0.3,
+					
+			} 
+		});
+
+		$('.tlt2').textillate(
+			{ in: 
+				{ 
+					effect: 'rollIn' ,
+					delay: 50,
+					delayScale: 0.6,
+					
+			} 
+		});
+
+		$('.tlt3').textillate(
+			{ in: 
+				{ 
+					effect: 'rollIn' ,
+					delay: 55,
+					delayScale: 1,
+					
+			} 
+		});
+	});
+	</script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="assets/jquery.fittext.js"></script>
+	<script src="assets/jquery.lettering.js"></script>
+	<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+	<script src="jquery.textillate.js"></script>
+</body>
+</html>
