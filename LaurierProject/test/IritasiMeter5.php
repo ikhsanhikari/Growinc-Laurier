@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<title >Facts Wanita</title>
+	<title >Iritasi Meter</title>
 	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
 	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
 	<meta name="author" content="Author for Tutorial-webdesign.com" />
@@ -22,38 +22,43 @@
   
   	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/style_iritation_statistic.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="../font/Just_tell_me_what_regular.otf" type='text/css'>
 </head>
-<body>
+<body style="overflow: hidden;">
 	<div class="row">
-		<div class="col-md-11">
+		<div class="col-md-10">
+			<div class="nomor1">
+				<img src="img/nomor5.png">
+			</div>
 			<div>
-				<h1  style="font-size: 10px">Tahukah kamu, bahwa faktanya 8 dari 10 cewek berpotensi</h1>
-				<h1 class="huruf2 tlt2">mengalami iritasi di area kewanitaan mereka saat lagi menstruasi?</h1>
+				<label class="kata3">Sehari-hari,kamu lebih banyak beraktivitas di mana?</label>
 			</div>
-			<div style="width: 100%; margin-left: 10%; margin-top: 5%;">
-				<img src="img/CeweBanyak.png" class="responsive">
+			<div class="kendaraan">
+				<a href="IritasiMeter6.php"><img src="img/matahari.png" class="responsive" ></a>
 			</div>
-		</div>
-		<div class="col-md-1">
-			<div class="row menu_kok_bisa" >
-				<a href=""><img src="img/btn-story.png" class="responsive"></a>
+			<div class="kendaraan2">
+				<a href="IritasiMeter6.php"><img src="img/ac.png" class="responsive" id="tisu"></a>
 			</div>
-			<br>
-			<div class="row">
-				<a href=""><img src="img/btn-meter.png" class="responsive"></a>
+			<div >
+				<p class="kataMatahari">Di luar ruangan</p>
+				
 			</div>
-			<br>
-			<div class="row">
-				<a href=""><img src="img/btn-ask.png" class="responsive"></a>
+			<div >
+				<p class="kataAc">Di ruangan ber-AC</p>
 			</div>
-			<br>
-			<div class="row">
-				<a href=""><img src="img/btn-try.png" class="responsive"></a>
+			<div class="bawah4">
+				<img src="img/meter2.png">
 			</div>
 		</div>
 		
+		<div class="col-md-2">
+			<ol type="none" style="list-style: none; margin-top: 80%; margin-left: 15%">
+				<li><img src="img/buku.png" class="responsive"></li>
+				<li><img src="img/btn_dokterLaurier.png" class="responsive"></li>
+				<li><img src="img/btn_try.png" class="responsive"></li>
+			</ol>
+		</div>
 	</div>
 	
 
@@ -62,9 +67,9 @@
 		$('.tlt').textillate(
 			{ in: 
 				{ 
-				effect: 'fadeInLeft' ,
-				delayScale: 1,
-				reverse: true,
+				effect: 'rollIn' ,
+				delayScale: -0.3,
+				// reverse: true,
 				// shuffle: true,
 			} 
 		});
@@ -72,7 +77,7 @@
 		$('.tlt2').textillate(
 			{ in: 
 				{ 
-				effect: 'fadeInLeft' ,
+				effect: 'rollIn' ,
 				delayScale: 0.6,
 				// reverse: true,
 				// shuffle: true,

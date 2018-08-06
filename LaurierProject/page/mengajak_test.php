@@ -1,0 +1,27 @@
+<div class="row">
+		<div class="col-md-11">
+			<div style="margin-left: 20%;">
+				<img src="img/breath.png">
+			</div>
+			<div style="margin-left: 25%; margin-top: -3%;">
+				<img src="img/kataSekarang.png" class="responsive">
+			</div>
+			<div style="margin-left: 33%; margin-top: -3%;">
+				<a href="test/iritasiMeter.php"><img src="img/btnIkutTes.png" class="responsive"></a>
+			</div>
+		</div>
+		
+		<div class="col-md-1">
+					<div class="row menu_kok_bisa" >
+						<a href=""><img src="img/btn-story.png" class="responsive"></a>
+					</div>
+					<br>
+					<div class="row">
+						<a href=""><img src="img/btn-ask.png" class="responsive"></a>
+					</div>
+					<br>
+					<div class="row">
+						<a href=""><img src="img/btn-try.png" class="responsive"></a>
+					</div>
+			</div>
+	</div>

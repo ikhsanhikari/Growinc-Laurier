@@ -167,11 +167,18 @@
             
           }else if(index==2){
             kok_bisa();
-            // alert('two')
           }else if(index==3){
             penjabaran_tubuh();
           }else if(index == 4){
             hubungan_iritasi_menstruasi();
+          }else if(index == 5){
+            kegiatan();
+          }else if(index == 6){
+            kenali_tanda_tanda();
+          }else if(index == 7){
+            solusi();
+          }else if(index == 8){
+            usp_product()
           }
 
         } else {
@@ -201,7 +208,7 @@
        // }else if (i==3) {
        //   paginationList += "<li id='4' style='margin-right: 30px;'><a data-index='"+(i+1)+"' href='#" + (i+1) + "'><img src='img/buku.jpg' style='width:60px;'></a></li><br/><br/>"
        // }
-        paginationList += "<li ><a data-index='"+(i+1)+"' href='#" + (i+1) + "'></a></li>"
+        // paginationList += "<li type='none'><a data-index='"+(i+1)+"' href='#" + (i+1) + "'></a></li>"
       }
     });
 
@@ -735,6 +742,114 @@
   function kok_bisa(){
     $('#petir').addClass('animated fadeInUp');
     $('.tlt').addClass('animated fadeInUp');
+  }
+  function kenali_tanda_tanda(){
+    $(".btn-ruam").click(function(){
+      $("#bungagbr").attr("src","img/bunga-ruam.png");
+      $(".kata-standard").css("margin-left","500px");
+      $("#kata").attr("src","img/kata-ruam.png");
+
+    });
+    $(".btn-gatal").click(function(){
+      $("#bungagbr").attr("src","img/bunga-gatal.png");
+      $(".kata-standard").css("margin-left","500px");
+      $("#kata").attr("src","img/kata_gatal.png");
+    });
+    $(".btn-merah").click(function(){
+      $("#bungagbr").attr("src","img/bunga-merah.png");
+      $("#kata").attr("src","img/kata-merah.png");
+      $(".kata-standard").css("margin-left","0px");
+    });
+    $('.btn-bunga').addClass('animated fadeInLeft');
+    $('#bungagbr').addClass('animated fadeInUp');
+    $('.kata-standard').addClass('animated fadeInUp');
+  }
+
+  function usp_product(){
+    $(".pad").addClass("animated fadeInRight");
+    $(".pointer_1").addClass("animated fadeIn");
+    $(".pointer_2").addClass("animated fadeIn");
+    $(".pointer_3").addClass("animated fadeIn");
+    $(".bebas_lembap").addClass("animated fadeInLeft");
+    $(".laurier_healtly").addClass("animated fadeInLeft");
+    
+    $(".pointer_1").click(function(){
+      $("#img_pointer1").attr("src","img/pointer.png");
+      
+      $(".gambaran_atas").css("visibility","visible");
+      
+      $(".gambaran_atas").addClass("animated fadeIn");
+      $(".pointer_1").addClass("animated fadeIn");
+      $(".pointer_2").addClass("animated fadeIn");
+      $(".pointer_3").addClass("animated fadeIn");
+      // disable
+      $("#img_pointer2").attr("src","img/pointer_1.png");
+      $("#img_pointer3").attr("src","img/pointer_1.png");
+
+      // remove class
+      $(".gambaran_bawah").removeClass('animated fadeIn');
+      $(".gambaran_tengah").removeClass('animated fadeIn');
+
+      // hidden
+      $(".gambaran_tengah").css("visibility","hidden");
+      $(".gambaran_bawah").css("visibility","hidden");
+    });
+    $(".pointer_2").click(function(){
+      $("#img_pointer2").attr("src","img/pointer.png");
+      $(".gambaran_tengah").css("visibility","visible");
+
+      $(".gambaran_tengah").addClass("animated fadeIn");
+      $(".pointer_2").addClass("animated fadeIn");
+
+      // disable
+      $("#img_pointer1").attr("src","img/pointer_1.png");
+      $("#img_pointer3").attr("src","img/pointer_1.png");
+
+      // remove class
+      $(".gambaran_bawah").removeClass('animated fadeIn');
+      $(".gambaran_atas").removeClass('animated fadeIn');
+
+      // hidden
+      $(".gambaran_atas").css("visibility","hidden");
+      $(".gambaran_bawah").css("visibility","hidden");
+    });
+    $(".pointer_3").click(function(){
+      $("#img_pointer3").attr("src","img/pointer.png");
+      $(".gambaran_bawah").css("visibility","visible");
+
+      $(".gambaran_bawah").addClass("animated fadeIn");
+      $(".pointer_3").addClass("animated fadeIn");
+
+
+      // disable
+      $("#img_pointer1").attr("src","img/pointer_1.png");
+      $("#img_pointer2").attr("src","img/pointer_1.png");
+
+      // removeClass
+      $(".gambaran_atas").removeClass('animated fadeIn');
+      $(".gambaran_tengah").removeClass('animated fadeIn');
+
+      // hidden
+      $(".gambaran_atas").css("visibility","hidden");
+      $(".gambaran_tengah").css("visibility","hidden");
+    });
+  }
+
+  function solusi(){
+    $('.panah').addClass('animated bounceInDown delay-10s');
+  }
+  function kegiatan(){
+    $("#gambar1").click(function(){
+      $('.emot').toggleClass("jalan");
+    });
+
+    $("#gambar2").click(function(){
+      $('.emot').toggleClass("jalan2");
+    });
+
+    $("#gambar3").click(function(){
+      $('.emot').toggleClass("jalan3");
+    });
   }
   
 }(window.jQuery);
