@@ -164,7 +164,7 @@
           index = $(this).index();
           el.moveDown()
           if(index==1){
-            
+            iritation_statistic();
           }else if(index==2){
             kok_bisa();
           }else if(index==3){
@@ -178,7 +178,7 @@
           }else if(index == 7){
             solusi();
           }else if(index == 8){
-            usp_product()
+            usp_product();
           }
 
         } else {
@@ -285,6 +285,11 @@
   function hubungan_iritasi_menstruasi(){
       $("#kiri").addClass('animated fadeInLeft');
       $(".suhu").addClass('animated fadeInLeft');
+    //   $('.tekspara1').textFx({
+    //       type: 'fadeIn',
+    //       iChar: 100,
+    //       iAnim: 1000
+    // });
   }
   function penjabaran_tubuh(){
             $('.kata-kata4').addClass('animated fadeInLeft');
@@ -741,7 +746,13 @@
   }
   function kok_bisa(){
     $('#petir').addClass('animated fadeInUp');
-    $('.tlt').addClass('animated fadeInUp');
+    // $('.tlt').addClass('animated fadeInUp');
+    $('.tlt').textFx({
+          type: 'fadeIn',
+          iChar: 100,
+          iAnim: 1000
+      });
+    // $(".tlt").addClass(".AnimatedTitle-letter");
   }
   function kenali_tanda_tanda(){
     $(".btn-ruam").click(function(){
@@ -849,6 +860,18 @@
 
     $("#gambar3").click(function(){
       $('.emot').toggleClass("jalan3");
+    });
+  }
+  function iritation_statistic(){
+    $('.hurufiritasi').textFx({
+          type: 'fadeIn',
+          iChar: 100,
+          iAnim: 1000
+    });
+    $('.hurufiritasi1').textFx({
+          type: 'fadeIn',
+          iChar: 100,
+          iAnim: 1000
     });
   }
   

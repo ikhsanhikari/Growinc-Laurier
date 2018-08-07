@@ -29,11 +29,18 @@
 	<script type="text/javascript" src="js/w3.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
+	<!-- texFX -->
+	<script type="text/javascript" src="js/jquery.transit.js"></script> 
+	<script type="text/javascript" src="jquery.textFx.js"></script>
+
 	
 </head>
 <body>
 	
-
+	<div>
+		<img src="img/Logo.png" style="position: fixed;">
+		<!-- <h1 style="color: black; position: fixed;">Logo</h1> -->
+	</div>
 	<div class="main">
 		<section class="page one" id="tesOne">
 			<?php include("page/landing_page.php") ?>

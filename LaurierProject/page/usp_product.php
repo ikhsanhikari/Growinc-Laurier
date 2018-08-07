@@ -42,19 +42,19 @@
 		</div>
 		<div class="col-md-1">
 			<div class="row menu_kok_bisa" >
-				<a href=""><img src="img/btn-story.png" class="responsive"></a>
+				<a href="index.php"><img id="btn-story" src="img/btn-story.png" class="responsive"></a>
 			</div>
 			<br>
 			<div class="row">
-				<a href=""><img src="img/btn-meter.png" class="responsive"></a>
+				<a href="test/iritasiMeter.php"><img id="btn-meter" src="img/btn-meter.png" class="responsive"></a>
 			</div>
 			<br>
 			<div class="row">
-				<a href="https://menstruasi.com"><img src="img/btn-ask.png" class="responsive"></a>
+				<a href="http://menstruasi.com"><img id="btn-ask" src="img/btn-ask.png" class="responsive"></a>
 			</div>
 			<br>
 			<div class="row">
-				<a href=""><img src="img/btn-try.png" class="responsive"></a>
+				<a href="javascript:alert('on progress')"><img id="btn-try" src="img/btn-try.png" class="responsive"></a>
 			</div>
 		</div>
 	</div>	

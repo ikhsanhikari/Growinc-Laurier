@@ -18,15 +18,15 @@
 		</div>
 		<div class="col-md-1  menu-lp">
 			<div  class="row">
-				<img src="img/btn-meter.png">
+				<a href="test/iritasiMeter.php"><img id="btn-meter" src="img/btn-meter.png"></a>
 			</div>
 			<br>
 			<div class="row">
-				<img src="img/btn-ask.png">	
+				<a href="http://menstruasi.com"><img id="btn-ask" src="img/btn-ask.png"></a>	
 			</div>
 			<br>
 			<div class="row">
-				<img src="img/btn-try.png">	
+				<a href="javascript:alert('on progress')"><img id="btn-try" src="img/btn-try.png"></a>	
 			</div>
 		</div>
 </div>
