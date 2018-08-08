@@ -46,7 +46,7 @@
 		<!-- <h1 style="color: black; position: fixed;">Logo</h1> -->
 	</div>
 	<div class="main">
-		<section class="page one" id="tesOne">
+		<section class="page one" id="tesOne" style="background-image: url('img/landing-page.png');">
 			<?php include("page/landing_page.php") ?>
 		</section>
 		
