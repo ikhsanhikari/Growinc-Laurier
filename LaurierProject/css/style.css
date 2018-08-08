@@ -817,7 +817,8 @@ num {display: none; visibility: hidden;}
 .iritation-statistic{
 	width: 100%; 
 	margin-left: 10%; 
-	margin-top: 5%;
+	margin-top: 5%;;
+	/*visibility: hidden;*/
 }
 
 .hurufiritasi{
@@ -841,7 +842,12 @@ num {display: none; visibility: hidden;}
 .pinggir{
 	margin-top: 30%;
 }
-
+#g8{
+	animation-delay: 2s
+}
+#g2{
+	animation-delay: 4s
+}
 /*solusi start*/
 .hurufsolusi{
 	font-family: "MyWebFont";

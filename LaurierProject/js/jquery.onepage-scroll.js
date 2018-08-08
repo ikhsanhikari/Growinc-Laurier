@@ -285,11 +285,6 @@
   function hubungan_iritasi_menstruasi(){
       $("#kiri").addClass('animated fadeInLeft');
       $(".suhu").addClass('animated fadeInLeft');
-    //   $('.tekspara1').textFx({
-    //       type: 'fadeIn',
-    //       iChar: 100,
-    //       iAnim: 1000
-    // });
   }
   function penjabaran_tubuh(){
             $('.kata-kata4').addClass('animated fadeInLeft');
@@ -755,6 +750,11 @@
     // $(".tlt").addClass(".AnimatedTitle-letter");
   }
   function kenali_tanda_tanda(){
+    $('.nah_kenalin').textFx({
+          type: 'fadeIn',
+          iChar: 100,
+          iAnim: 1000
+      });
     $(".btn-ruam").click(function(){
       $("#bungagbr").attr("src","img/bunga-ruam.png");
       $(".kata-standard").css("margin-left","500px");
@@ -847,6 +847,16 @@
   }
 
   function solusi(){
+    $('.hurufsolusi').textFx({
+          type: 'fadeIn',
+          iChar: 100,
+          iAnim: 1000
+      });
+    $('.hurufsolusi1').textFx({
+          type: 'fadeIn',
+          iChar: 100,
+          iAnim: 1000
+      });
     $('.panah').addClass('animated bounceInDown delay-10s');
   }
   function kegiatan(){
@@ -863,6 +873,7 @@
     });
   }
   function iritation_statistic(){
+   
     $('.hurufiritasi').textFx({
           type: 'fadeIn',
           iChar: 100,
@@ -873,6 +884,10 @@
           iChar: 100,
           iAnim: 1000
     });
+    // $("#g2").hide();
+    $('#g8').addClass('animated fadeInDown');
+    $('#g2').addClass('animated fadeInDown');
+    // $(".iritation-statistic").hide();
   }
   
 }(window.jQuery);

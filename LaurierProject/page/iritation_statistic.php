@@ -33,8 +33,9 @@
 				<h1 class="hurufiritasi">Tahukah kamu, bahwa faktanya 8 dari 10 cewek berpotensi</h1>
 				<h1 class="hurufiritasi1">mengalami iritasi di area kewanitaan mereka saat lagi menstruasi?</h1>
 			</div>
-			<div class="iritation-statistic">
-				<img src="img/CeweBanyak.png" class="responsive">
+			<div class="iritation-statistic" >
+				<img  src="img/8girl.png" id="g8">
+				<img  src="img/2girl.png" id="g2" style="margin-left: -40px" >
 			</div>
 		</div>
 		<div class="col-md-1">
