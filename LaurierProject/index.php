@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/w3.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- texFX -->
 	<script type="text/javascript" src="js/jquery.transit.js"></script> 
@@ -36,7 +37,10 @@
 	
 </head>
 <body>
-	
+	<?php include("page/modal_try_now.php") ?>
+	<?php include("page/modal_buy_now.php") ?>
+	<?php include("page/modal_form.php") ?>
+	<?php include("page/modal_terimakasih.php") ?>
 	<div>
 		<img src="img/Logo.png" style="position: fixed;">
 		<!-- <h1 style="color: black; position: fixed;">Logo</h1> -->
@@ -98,6 +102,7 @@
 		</section>
 	</div>
 
+
 	<script type="text/javascript">
 	$(".main").onepage_scroll({
 		sectionContainer: "section",
@@ -118,7 +123,6 @@
 		$('.tangan-wanita').addClass('animated fadeInUp');
 		$('.dont-get-iritated').addClass('animated slideInLeft');
 		$('.kata_merasa').addClass('animated zoomInUp');
-		
 	</script>
 </body>
 </html>

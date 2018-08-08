@@ -1,14 +1,46 @@
+<?php 
+ 	if(substr(getOS(), 0,6)=="Mac OS"){
+ ?>
+ 	<style type="text/css">
+ 		.btn-bunga{
+			margin-left: 35px;
+			margin-top: 200px;
+		}
+		.bunga{
+			float: right;
+			margin-right: 300px;
+			margin-top: -505px;
+			z-index: 0;
+			position: relative;
+		    /* Safari 4.0 - 8.0 */
+		    -webkit-animation-name: bungaanime;
+		    -webkit-animation-duration: 3s;
+		    -webkit-animation-timing-function: linear;
+		    -webkit-animation-delay: 1s;
+		    -webkit-animation-iteration-count: infinite;
+		    -webkit-animation-direction: alternate;
+		    /* Standard syntax */
+		    animation-name: bungaanime;
+		    animation-duration: 3s;
+		    animation-timing-function: linear;
+		    animation-delay: 1s;
+		    animation-iteration-count: infinite;
+		    animation-direction: alternate;
+		}
+ 	</style>
+<?php } ?>
+
 <div class="row">
 		<div class="col-md-2">
-			<div class="row btn-bunga">
+			<div class=" btn-bunga">
 				<div class="btn-merah">
-					<img src="img/btn-merah.png">	
+					<img class="btn-kenali" src="img/btn-merah.png">	
 				</div>
 				<div class="btn-gatal">
-					<img src="img/btn-gatal.png">
+					<img class="btn-kenali" src="img/btn-gatal.png">
 				</div>
 				<div class="btn-ruam">
-					<img src="img/btn-ruam.png">
+					<img class="btn-kenali" src="img/btn-ruam.png">
 				</div>
 			</div>
 		</div>
@@ -41,7 +73,7 @@
 			</div>
 			<br>
 			<div class="row">
-				<a href="javascript:alert('on progress')"><img id="btn-try" src="img/btn-try.png" class="responsive"></a>
+				<a data-toggle="modal" data-target="#myModal" ><img id="btn-try" src="img/btn-try.png"></a>	
 			</div>
 		</div>
 

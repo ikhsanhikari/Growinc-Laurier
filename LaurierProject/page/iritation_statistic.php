@@ -1,10 +1,39 @@
+<?php 
+ 	if(substr(getOS(), 0,6)=="Mac OS"){
+ ?>
+ <style type="text/css">
+ 	.iritation-statistic{
+ 		width: 100%; 
+		margin-left: 5%; 
+		margin-top: 5%;
+ 	}
+ 	.hurufiritasi{
+		font-family: "MyWebFont";
+		color: rgb(89,89,91);
+		font-size: 30px;
+		margin-top: 10%;
+		margin-left: 4%;
+		/*text-align: center;*/
+	}
+
+	.hurufiritasi1{
+		font-family: "MyWebFont";
+		color: rgb(89,89,91);
+		font-size: 30px;
+		margin-top: -1%;
+		margin-left: 1%;
+		/*text-align: center;*/
+	}
+ </style>
+<?php } ?>
+
 <div class="row">
 		<div class="col-md-11">
 			<div>
 				<h1 class="hurufiritasi">Tahukah kamu, bahwa faktanya 8 dari 10 cewek berpotensi</h1>
 				<h1 class="hurufiritasi1">mengalami iritasi di area kewanitaan mereka saat lagi menstruasi?</h1>
 			</div>
-			<div style="width: 100%; margin-left: 10%; margin-top: 5%;">
+			<div class="iritation-statistic">
 				<img src="img/CeweBanyak.png" class="responsive">
 			</div>
 		</div>
@@ -22,7 +51,7 @@
 			</div>
 			<br>
 			<div class="row">
-				<a href="javascript:alert('on progress')"><img id="btn-try" src="img/btn-try.png" class="responsive"></a>
+				<a data-toggle="modal" data-target="#myModal" ><img id="btn-try" src="img/btn-try.png"></a>	
 			</div>
 		</div>
 		

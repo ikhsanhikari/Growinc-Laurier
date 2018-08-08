@@ -21,7 +21,7 @@
 			</div>
 			<br>
 			<div class="row">
-				<a href="javascript:alert('on progress')"><img id="btn-try" src="img/btn-try.png" class="responsive"></a>
+				<a data-toggle="modal" data-target="#myModal" ><img id="btn-try" src="img/btn-try.png"></a>	
 			</div>
 		</div>
 	</div>

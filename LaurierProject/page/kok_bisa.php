@@ -1,6 +1,6 @@
 <div class="row">
 				<div class="col-md-11">
-					<h1 class="tlt" >Kok Bisa</h1>	
+					<h1 class="tlt" >Kok Bisa </h1> 
 					<div  style="width:100%;margin-top:-70px;animation-delay: 1s" id="petir" >
 						<center><img src="img/petir.png" class="responsive"></center>
 					</div>		
@@ -19,7 +19,9 @@
 			</div>
 			<br>
 			<div class="row">
-				<a href="javascript:alert('on progress')"><img id="btn-try" src="img/btn-try.png" class="responsive"></a>
+				<a data-toggle="modal" data-target="#myModal" ><img id="btn-try" src="img/btn-try.png"></a>	
 			</div>
 		</div>
 </div>
+
+
