@@ -781,8 +781,8 @@
   function kenali_tanda_tanda(){
     $('.nah_kenalin').textFx({
           type: 'fadeIn',
-          iChar: 100,
-          iAnim: 1000
+          iChar: 30,
+          iAnim: 100
       });
     $(".btn-ruam").click(function(){
       $("#bungagbr").attr("src","img/bunga-ruam.png");
@@ -878,39 +878,69 @@
   function solusi(){
     $('.hurufsolusi').textFx({
           type: 'fadeIn',
-          iChar: 100,
-          iAnim: 1000
+          iChar: 40,
+          iAnim: 100
       });
     $('.hurufsolusi1').textFx({
           type: 'fadeIn',
-          iChar: 100,
-          iAnim: 1000
+          iChar: 40,
+          iAnim: 100
       });
     $('.panah').addClass('animated bounceInDown delay-10s');
   }
   function kegiatan(){
+    $('.huruf').textFx({
+          type: 'fadeIn',
+          iChar: 40,
+          iAnim: 100
+    });
+    $('.huruf2').textFx({
+          type: 'fadeIn',
+          iChar: 40,
+          iAnim: 100
+    });
+    
     $("#gambar1").click(function(){
+    var elem = document.getElementById("emot");
+    elem.style.left='0px';
       $('.emot').toggleClass("jalan");
-    });
+    elem.style.left='300px';
+    // $('.emot').addClass("Endjalan");
+    //myMove();
+    
+  })
 
-    $("#gambar2").click(function(){
-      $('.emot').toggleClass("jalan2");
-    });
+  $("#gambar2").click(function(){
+    // alert('Gym');
+    var elem = document.getElementById("emot");
+    elem.style.left='310px';
+    $('.emot').toggleClass("jalan2");
+    elem.style.left='600px';
+    // $('.emot').addClass("Endjalan2");
+    // $('.emot').addClass("Endjalan2");
+  });
 
-    $("#gambar3").click(function(){
-      $('.emot').toggleClass("jalan3");
-    });
+  $("#gambar3").click(function(){
+    // alert('Gym');
+    var elem = document.getElementById("emot");
+    elem.style.left='610px';
+    $('.emot').toggleClass("jalan3");
+    elem.style.left='900px';
+    
+  });
+
+
   }
   function iritation_statistic(){
    
     $('.hurufiritasi').textFx({
           type: 'fadeIn',
-          iChar: 50,
+          iChar: 40,
           iAnim: 10
     });
     $('.hurufiritasi1').textFx({
           type: 'fadeIn',
-          iChar: 50,
+          iChar: 40,
           iAnim: 10
     });
     // $("#g2").hide();

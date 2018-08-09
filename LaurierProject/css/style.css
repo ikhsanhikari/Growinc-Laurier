@@ -80,8 +80,8 @@ body{
 	/*background-color: red;*/
 	width: 200px;
 	height: 200px;
-	margin-left: 760px;
-	margin-top: -130px;
+	margin-left: 770px;
+	margin-top: -150px;
 }
 .menu-lp{
 	margin-top: 200px;
@@ -900,8 +900,8 @@ num {display: none; visibility: hidden;}
 }
 
 .Gojek{
-	margin-top: 8%;
-	margin-left: 20%;
+	margin-top: 3%;
+	margin-left: 13%;
 	width: 34%;
 	/*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
@@ -914,7 +914,7 @@ num {display: none; visibility: hidden;}
 }
 
 .Gym{
-	margin-top: -22%;
+	margin-top: -31%;
 	margin-left: 45%; 
 	animation-delay: .45s;
 	width: 34%;
@@ -926,7 +926,7 @@ num {display: none; visibility: hidden;}
 }
 
 .Train{
-	margin-top: -22.5%;
+	margin-top: -31.5%;
 	margin-left: 74%;
 	animation-delay: .80s;
 	width: 34%;
@@ -944,7 +944,7 @@ num {display: none; visibility: hidden;}
 
 .lembap{
 	margin-left: 15%;
-	margin-top: -1%;
+	margin-top: -4%;
 }
 
 .emot{
@@ -997,11 +997,11 @@ num {display: none; visibility: hidden;}
 
 
 @-webkit-keyframes emotGym {
-    0%   {left:50px; top:0px;}
+    0%   {left:310px; top:0px;}
     /*25%  {left:200px; top:0px;}*/
     /*50%  { left:400px; top:0px;}*/
     /*75%  { left:0px; top:200px;}*/
-    100% {left:300px; top:0px;}
+    100% {left:600px; top:0px;}
 }
 
 
@@ -1030,11 +1030,11 @@ num {display: none; visibility: hidden;}
 }
 
 @-webkit-keyframes emotTrain {
-    0%   {left:630px; top:0px;}
+    0%   {left:610px; top:0px;}
     /*25%  {left:200px; top:0px;}*/
     /*50%  { left:400px; top:0px;}*/
     /*75%  { left:0px; top:200px;}*/
-    100% {left:930px; top:0px;}
+    100% {left:900px; top:0px;}
 }
 
 .jalan3{

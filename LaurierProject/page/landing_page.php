@@ -76,33 +76,36 @@
 			<div class="scroll">
 				<a  data-index="1"><img src="img/scroll.png"></a>
 			</div>
-				<!-- <img class="tangan-wanita" src="img/tangan-wanita.png" width="100%"> -->
+				<img class="tangan-wanita" src="img/tangan-wanita.png" width="100%">
 			
 			
 		</div>
-		<div class="col-md-1  menu-lp">
-			<div  class="row">
-				<a href="test/iritasiMeter.php"><img id="btn-meter" src="img/btn-meter.png"></a>
-				<!-- <label style="color: #59595b;font-family: 'myWebFont'">
+		<div class="col-md-1  menu-lp" >
+			<div  class="row" style="margin-left: -80px;color: #59595b;font-family: 'myWebFont';">
+				<label style="visibility: hidden;" class="txt-meter">
 					Irritation<br>
 					Meter Test	
-				</label> -->
+				</label>
+				<a href="test/iritasiMeter.php" style="float: right;margin-top: -53px;margin-right: 35px"><img class="btn-meter" src="img/btn-meter.png"></a>
+				
 			</div>
 			<br>
 			<div class="row">
-				<a href="http://menstruasi.com"><img id="btn-ask" src="img/btn-ask.png"></a>	
-				<!-- <label style="color: #59595b;font-family: 'myWebFont'">
+				<label style="visibility: hidden;margin-left: -80px;color: #59595b;font-family: 'myWebFont';" class="txt-ask">
 					Ask <br>	
 					Dr. Laurier	
-				</label> -->
+				</label>
+				<a style="float: right;margin-top: -50px;margin-right: 35px" href="https://menstruasi.com/dr-laurier"><img class="btn-ask" src="img/btn-ask.png"></a>	
+				
 			</div>
 			<br>
 			<div class="row">
-				<a data-toggle="modal" data-target="#myModal" ><img id="btn-try" src="img/btn-try.png"></a>
-				<!-- <label style="color: #59595b;font-family: 'myWebFont'">
+				<label style="visibility: hidden;margin-left: -80px;color: #59595b;font-family: 'myWebFont';" class="txt-try">
 					Try <br>	
 					Now!	
-				</label> -->	
+				</label>
+				<a data-toggle="modal" style="float: right;margin-top: -50px;margin-right: 35px" data-target="#myModal" ><img class="btn-try" src="img/btn-try.png"></a>
+					
 			</div>
 		</div>
 </div>

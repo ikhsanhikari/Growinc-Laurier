@@ -147,6 +147,43 @@ if($is_mobile == TRUE){
 		$('.tangan-wanita').addClass('animated fadeInUp');
 		$('.dont-get-iritated').addClass('animated slideInLeft');
 		$('.kata_merasa').addClass('animated zoomInUp');
+
+		$('.btn-meter').hover(function(){
+			$('.btn-meter').css("width","80px");
+			$('.btn-meter').css("cursor","pointer");
+			$('.txt-meter').css("visibility","visible");
+		},function(){
+			$('.btn-meter').css("width","70px");
+			$('.btn-meter').css("cursor","pointer");
+			$('.txt-meter').css("visibility","hidden");
+		});
+		$('.btn-ask').hover(function(){
+			$('.btn-ask').css("width","80px");
+			$('.btn-ask').css("cursor","pointer");
+			$('.txt-ask').css("visibility","visible");
+		},function(){
+			$('.btn-ask').css("width","70px");
+			$('.btn-ask').css("cursor","pointer");
+			$('.txt-ask').css("visibility","hidden");
+		});
+		$('.btn-story').hover(function(){
+			$('.btn-story').css("width","80px");
+			$('.btn-story').css("cursor","pointer");
+			$('.txt-story').css("visibility","visible");
+		},function(){
+			$('.btn-story').css("width","70px");
+			$('.btn-story').css("cursor","pointer");
+			$('.txt-story').css("visibility","hidden");
+		});
+		$('.btn-try').hover(function(){
+			$('.btn-try').css("width","80px");
+			$('.btn-try').css("cursor","pointer");
+			$('.txt-try').css("visibility","visible");
+		},function(){
+			$('.btn-try').css("width","70px");
+			$('.btn-try').css("cursor","pointer");
+			$('.txt-try').css("visibility","hidden");
+		});
 	</script>
 </body>
 </html>
