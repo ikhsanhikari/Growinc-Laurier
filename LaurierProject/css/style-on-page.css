@@ -50,6 +50,7 @@ header h1{
 	/*background-color: rgb(184,207,255);*/
 	background-size: 100% 100%;
 	background-image: url('img/landing-page.png');
+	z-index: 0;
 }
 	.one .page-container{
 		position: absolute;

@@ -1126,7 +1126,62 @@ num {display: none; visibility: hidden;}
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
-  
+@media (min-width: 320px) and (max-width: 568px) {
+  .wanita{
+			margin-top: -260px;
+			margin-right: -90px;
+			float: right;
+			z-index: 1;
+			width: 70%;
+			animation-delay: 0.6s;
+			visibility: hidden;
+		}
+
+		#dont-get{
+			width: 80%;
+		}
+		.dont-get-iritated{
+			animation-delay: 1.5s;
+			/*background-color: blue;*/
+			width: 700px;
+			margin-left: 150px;
+			/*margin-top: 50px;*/
+			z-index: 0;
+			width: 50%;
+			visibility: hidden;
+		}
+		.kata_merasa{
+			animation-delay: 1.9s;
+			margin-top: -300px;
+			width: 30%;
+			/*height: 300px;*/
+			/*background-color: green;*/
+			margin-right: 650px;
+			float: right;
+			visibility: hidden;
+		}
+		.tangan-wanita{
+			/*margin-left: 400px;*/
+			animation-delay: 1s;
+			z-index: 100;
+			/*background-color: red;*/
+			width: 200px;
+			height: 200px;
+			margin-left: 760px;
+			margin-top: -130px;
+			visibility: hidden;
+		}
+		.menu-lp{
+			margin-top: 200px;
+			/*margin-left: 50px*/
+		}
+		.scroll{
+			float: left;
+			margin-top: -110px;
+			margin-left: 270px;
+			animation-delay: 2;
+			visibility: hidden;
+			/*background-color: red;*/
+		}
   
 }

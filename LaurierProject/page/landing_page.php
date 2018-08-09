@@ -74,7 +74,7 @@
 				<img src="img/kata_merasa.png" class="responsive">
 			</div>	
 			<div class="scroll">
-				<a href="#two" data-index="1"><img src="img/scroll.png"></a>
+				<a  data-index="1"><img src="img/scroll.png"></a>
 			</div>
 				<!-- <img class="tangan-wanita" src="img/tangan-wanita.png" width="100%"> -->
 			
