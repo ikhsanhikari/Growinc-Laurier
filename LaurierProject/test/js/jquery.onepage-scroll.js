@@ -408,22 +408,6 @@ function hitung_iritasi(index,score){
         "</div>"+
       "</div>");
   }
-  // else if (index == 7 ) {
-  //   $("#container").html("<div class='hasil'>"+
-  //       "<img src='img/50%.png'>"+
-  //     "</div>"+
-  //     "<div>"+
-  //       "<label class='girls'>Kamu hampir aman nih, Girls!</label>"+
-  //     "</div>"+
-  //     "<div>"+
-  //       "<label class='yuk'>Yuk rawat area kewanitaanmu lebih baik. Jaga agar tetap kering dengan memakai tisu setelah buang air</label>"+
-  //       "<label class='kurangi'>dan kurangi pemakaian celana ketat terutama jika kamu sering melakukan aktivitas berkeringat.</label>"+
-  //       "<label class='iritasi'>Untuk mencegah iritasi, jangan lupa pakai laurier Healty Skin yang lapisan lembutnya aman untuk kulit!</label>"+
-  //     "</div>"+
-  //     "<div class='coba'>"+
-  //       "<a href='IritasiMeter.html'><img src='img/coba.png'></a>"+
-  //     "</div>");
-  // }
   else if (index == 7) {
     if (totalscore < 50 ) {
       $("#container").html("<div class='hasil'>"+

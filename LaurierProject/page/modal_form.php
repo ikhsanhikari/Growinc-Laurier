@@ -32,10 +32,10 @@
                   </h1>
                 </center>
               </div>
-              <form action="send_mail.php" name="form_send_email" method="POST">
+              <form action="page/send_email.php" name="form_send_email" id="myForm" method="POST">
                   <div class="row">
                     <div class="col-md-12">
-                      <center><input placeholder="Nama" type="text" name="name"></center>  
+                      <center><input placeholder="Nama" type="text" name="nama"></center>  
                     </div>
                   </div>
                   <div class="row">
@@ -52,8 +52,9 @@
                     </div>
                   </div>
                   <div class="row">
-                    
-                    <center><img src="img/submit.png" data-toggle="modal" data-target="#modal_tank_you" data-dismiss="modal" width="30%"></center>
+                    <!-- <input type="submit" name="" value="submit"> -->
+                    <center><img id="btn-submit" src="img/submit.png" data-toggle="modal" data-target="#modal_tank_you" data-dismiss="modal" width="30%"></center>
+
                   </div>
                   <div class="row">
                     <p style="font-family: 'myWebFont'; font-size: 20px; color: #58595b;margin-top: -10px; margin-left: 30px">*Sampel terbatas</p>
@@ -64,3 +65,8 @@
         </div>
     </div>
   </div>
+  <script type="text/javascript">
+    $("#btn-submit").click(function(){
+      $("#myForm").submit();
+    });
+  </script>

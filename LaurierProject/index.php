@@ -185,5 +185,18 @@ if($is_mobile == TRUE){
 			$('.txt-try').css("visibility","hidden");
 		});
 	</script>
+	<?php
+if(isset($_GET['message'])){
+	if($_GET['message']=="success"){
+		?>
+		<script type="text/javascript">
+			document.getelementbyid('modal_tank_you').style.display = "block";
+			$('#modal_tank_you').modal('toggle');
+    		$('#modal_tank_you').modal('show');
+		</script>
+		<?php
+	}
+}
+	?>
 </body>
 </html>

@@ -106,7 +106,7 @@
 					Ask <br>	
 					Dr. Laurier	
 				</label>
-				<a style="float: right;margin-top: -50px;margin-right: 35px" href="https://menstruasi.com/dr-laurier"><img class="btn-ask" src="img/btn-ask.png"></a>	
+				<a style="float: right;margin-top: -50px;margin-right: 35px" href="https://menstruasi.com/dr-laurier" target="_blank"><img class="btn-ask" src="img/btn-ask.png"></a>	
 				
 			</div>
 			<br>

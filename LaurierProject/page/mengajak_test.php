@@ -16,7 +16,7 @@
 				<label style="visibility: hidden;" class="txt-story">
 					Full Story	
 				</label>
-				<a href="index.php" style="float: right;margin-top: -53px;margin-right: 35px"><img class="btn-story" width="80px" src="img/btn-story.png"></a>
+				<a href="index.php"  style="float: right;margin-top: -53px;margin-right: 35px"><img class="btn-story" width="80px" src="img/btn-story.png"></a>
 				
 			</div>
 			
@@ -26,7 +26,7 @@
 					Ask <br>	
 					Dr. Laurier	
 				</label>
-				<a style="float: right;margin-top: -50px;margin-right: 35px" href="https://menstruasi.com/dr-laurier"><img class="btn-ask" src="img/btn-ask.png"></a>	
+				<a style="float: right;margin-top: -50px;margin-right: 35px" href="https://menstruasi.com/dr-laurier" target="_blank"><img class="btn-ask" src="img/btn-ask.png"></a>	
 				
 			</div>
 			<br>

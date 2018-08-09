@@ -128,7 +128,7 @@ if($is_mobile == TRUE){
 	</div>
 	
 	<div>
-		<a href=""><img src="img/btnShare.png" style="margin-left: 38%; margin-top: 3%;"></a>
+		<a href="http://www.facebook.com/sharer.php?s=100&p[title]=prettySocial%20-%20custom%20social%20share%20buttons.&p[summary]=Custom%20share%20buttons%20for%20Pinterest%2C%20Twitter%2C%20Facebook%20and%20Google%20Plus.&p[url]=http%3A%2F%2F36.72.85.69/Laurier/index.php"><img src="img/btnShare.png" style="margin-left: 38%; margin-top: 3%;"></a>
 	</div>
 
 
