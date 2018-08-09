@@ -83,14 +83,26 @@
 		<div class="col-md-1  menu-lp">
 			<div  class="row">
 				<a href="test/iritasiMeter.php"><img id="btn-meter" src="img/btn-meter.png"></a>
+				<!-- <label style="color: #59595b;font-family: 'myWebFont'">
+					Irritation<br>
+					Meter Test	
+				</label> -->
 			</div>
 			<br>
 			<div class="row">
 				<a href="http://menstruasi.com"><img id="btn-ask" src="img/btn-ask.png"></a>	
+				<!-- <label style="color: #59595b;font-family: 'myWebFont'">
+					Ask <br>	
+					Dr. Laurier	
+				</label> -->
 			</div>
 			<br>
 			<div class="row">
-				<a data-toggle="modal" data-target="#myModal" ><img id="btn-try" src="img/btn-try.png"></a>	
+				<a data-toggle="modal" data-target="#myModal" ><img id="btn-try" src="img/btn-try.png"></a>
+				<!-- <label style="color: #59595b;font-family: 'myWebFont'">
+					Try <br>	
+					Now!	
+				</label> -->	
 			</div>
 		</div>
 </div>

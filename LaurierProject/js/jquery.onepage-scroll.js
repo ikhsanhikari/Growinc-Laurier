@@ -171,6 +171,7 @@
             penjabaran_tubuh();
           }else if(index == 4){
             hubungan_iritasi_menstruasi();
+            thermometer();
           }else if(index == 5){
             kegiatan();
           }else if(index == 6){
@@ -285,6 +286,34 @@
   function hubungan_iritasi_menstruasi(){
       $("#kiri").addClass('animated fadeInLeft');
       $(".suhu").addClass('animated fadeInLeft');
+  }
+  function thermometer(goalAmount, progressAmount, animate) {
+      "use strict";
+      var $thermo = $("#thermometer"),
+          $progress = $(".progress", $thermo),
+          $goal = $(".goal", $thermo),
+          percentageAmount;
+
+      goalAmount = goalAmount || parseFloat($goal.text()),
+      progressAmount = progressAmount || parseFloat($progress.text()),
+      percentageAmount = Math.min(Math.round(progressAmount / goalAmount * 1000) / 10, 100); //make sure we have 1 decimal point
+
+      $goal.find(".amount").text();
+      $progress.find(".amount").text();
+
+      $progress.find(".amount").hide();
+      if (animate !== false) {
+          $progress.animate({
+              "height": percentageAmount + "%"
+          }, 1200, function () {
+              // $(this).find(".amount").fadeIn(200);
+          });
+      } else {
+          $progress.css({
+              "height": percentageAmount + "%"
+          });
+          $progress.find(".amount").fadeIn(200);
+      }
   }
   function penjabaran_tubuh(){
             $('.kata-kata4').addClass('animated fadeInLeft');
@@ -876,13 +905,13 @@
    
     $('.hurufiritasi').textFx({
           type: 'fadeIn',
-          iChar: 100,
-          iAnim: 1000
+          iChar: 50,
+          iAnim: 10
     });
     $('.hurufiritasi1').textFx({
           type: 'fadeIn',
-          iChar: 100,
-          iAnim: 1000
+          iChar: 50,
+          iAnim: 10
     });
     // $("#g2").hide();
     $('#g8').addClass('animated fadeInDown');

@@ -25,41 +25,46 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="../font/Just_tell_me_what_regular.otf" type='text/css'>
 </head>
+
 <body style="overflow: hidden;">
+<?php include("../page/modal_try_now.php") ?>
+<?php include("../page/modal_buy_now.php") ?>
+<?php include("../page/modal_form.php") ?>
+<?php include("../page/modal_terimakasih.php") ?>
 	<div class="row">
-		<div class="col-md-10">
+		<div class="col-md-11" id="container">
 			<div class="nomor1">
-				<img src="img/nomor7.png">
+				<img src="img/nomor1.png" id="nomor1">
 			</div>
-			<div>
-				<label class="kata2">Undies favorit kamu saat tidur...</label>
+			
+			<div class="col-md-6">
+				<div class="hanger">
+					<img src="img/hanger.png" class="responsive" id="hanger" onclick="hitung_iritasi(1,20)">
+				</div>
+				<div class="tisu">
+					<img src="img/tisu.png" class="responsive" id="tisu" onclick="hitung_iritasi(1,0)">
+				</div>
 			</div>
-			<div class="Putih">
-				<a href="HasilMeter.php"><img src="img/kolor_putih.png" class="responsive" ></a>
+			<div class="col-md-2">
+				<div class="bawah">
+					<img src="img/meter.png">
+				</div>
 			</div>
-			<div class="seneng">
-				<a href="HasilMeter.php"><img src="img/kolor_merah.png" class="responsive" id="tisu"></a>
-			</div>
-			<div >
-				<p class="kataPutih">Bahannya</p>
-				<p class="kataPutih2">Katun</p>
-				
-			</div>
-			<div >
-				<p class="kataMerah">Bahannya</p>
-				<p class="kataMerah2">Polyster</p>
-			</div>
-			<div class="bawah4">
-				<img src="img/meter2.png">
-			</div>
+			
 		</div>
 		
-		<div class="col-md-2">
-			<ol type="none" style="list-style: none; margin-top: 80%; margin-left: 15%">
-				<li><img src="img/buku.png" class="responsive"></li>
-				<li><img src="img/btn_dokterLaurier.png" class="responsive"></li>
-				<li><img src="img/btn_try.png" class="responsive"></li>
-			</ol>
+		<div class="col-md-1 menu-lp">
+			<div class="row menu_kok_bisa" >
+				<a href="../index.php"><img id="btn-story" src="img/btn-story.png" class="responsive"></a>
+			</div>
+			<br>
+			<div class="row">
+				<a href="http://menstruasi.com"><img id="btn-ask" src="img/btn-ask.png" class="responsive"></a>
+			</div>
+			<br>
+			<div class="row">
+				<a data-toggle="modal" data-target="#myModal" ><img id="btn-try" src="img/btn-try.png"></a>	
+			</div>
 		</div>
 	</div>
 	

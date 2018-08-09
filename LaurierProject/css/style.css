@@ -95,22 +95,22 @@ body{
 	/*background-color: red;*/
 }
 #btn-meter:hover{
-	width: 100px;
+	width: 80px;
 	cursor: pointer
 	/*height: 100px*/
 }
 #btn-ask:hover{
-	width: 100px;
+	width: 80px;
 	cursor: pointer
 	/*height: 100px*/
 }
 #btn-try:hover{
-	width: 100px;
+	width: 80px;
 	cursor: pointer
 	/*height: 100px*/
 }
 #btn-story:hover{
-	width: 100px;
+	width: 80px;
 	cursor: pointer;
 	/*height: 100px*/
 }
@@ -655,7 +655,7 @@ num {display: none; visibility: hidden;}
 /*halaman bunga*/
 .btn-kenali:hover{
 	cursor: pointer;
-	width: 110%;
+	width: 77%;
 }
 .btn-bunga{
 	margin-left: 35px;
