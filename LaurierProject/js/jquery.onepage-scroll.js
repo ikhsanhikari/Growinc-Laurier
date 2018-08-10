@@ -198,8 +198,8 @@
       }).addClass("section").attr("data-index", i+1);
       topPos = topPos + 100;
       if(settings.pagination == true) {
-       //  if (i==0) {
-       //   paginationList += "<li id='1' style='margin-right: 92px;margin-top: -19px;'><a data-index='"+(i+1)+"' href='#" + (i+1) + "'><img src='img/parameter.jpg' style='width:63px;' ></a></li><br/><br/>"
+        // if (i==1) {
+         // paginationList += "<li ><a data-index='"+(i+1)+"' href='#" + (i+1) + "'></a></li>"
        // }
        // else if(i==1){
        //   paginationList += "<li id='2' style='margin-right: 30px;'><a data-index='"+(i+1)+"' href='#" + (i+1) + "'><img src='img/wanita.jpg' style='width:60px;' ></a></li><br/><br/>"
@@ -221,7 +221,7 @@
     
     // Create Pagination and Display Them
     if(settings.pagination == true) {
-      $("<ul class='onepage-pagination'>" + paginationList + "</ul>").prependTo("body");
+      $("<ul class='onepage-pagination' style='margin-top:-10%;margin-right:90%'>" + paginationList + "</ul>").prependTo("body");
       posTop = (el.find(".onepage-pagination").height() / 2) * -1;
       el.find(".onepage-pagination").css("margin-top", posTop);
     }
@@ -947,6 +947,11 @@
     $('#g8').addClass('animated fadeInDown');
     $('#g2').addClass('animated fadeInDown');
     // $(".iritation-statistic").hide();
+  }
+
+  function scrollTest(){
+    alert("]]]]]]]]]]");
+
   }
   
 }(window.jQuery);

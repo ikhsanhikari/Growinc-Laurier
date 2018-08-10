@@ -66,7 +66,7 @@ if($is_mobile == TRUE){
 	<?php include("page/modal_form.php") ?>
 	<?php include("page/modal_terimakasih.php") ?>
 	<div>
-		<img src="img/Logo.png" style="position: fixed;">
+		<img src="img/Logo.png" style="position: fixed;z-index: 100">
 		<!-- <h1 style="color: black; position: fixed;">Logo</h1> -->
 	</div>
 	<div class="main">

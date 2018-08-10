@@ -46,7 +46,7 @@ body{
 	/*background-color: red;*/
 	/*width: 1200px;*/
 	/*margin-left: 70%;*/
-	margin-top: -330px;
+	margin-top: 3%;
 	margin-right: -80px;
 	float: right;
 	z-index: 1;
@@ -61,8 +61,9 @@ body{
 	/*background-color: blue;*/
 	width: 700px;
 	margin-left: 150px;
+	position: absolute;
 	/*margin-top: 50px;*/
-	z-index: 0;
+	z-index: 4;
 }
 .kata_merasa{
 	animation-delay: 1.9s;
@@ -471,7 +472,7 @@ body{
 }
 .suhu{
 	margin-top: -510px;
-	margin-left: -200px;
+	margin-left: -250px;
 }
 .tekspara1{
 	color: rgb(96,118,156);
@@ -762,13 +763,13 @@ num {display: none; visibility: hidden;}
 }
 .pointer_1{
 	margin-left: 520px;
-	margin-top: -426px;
+	margin-top: -420px;
 	animation-delay: 1s;
 	/*background-color: red;*/
 }
 .pointer_2{
 	margin-left: 410px;
-	margin-top: 47px;
+	margin-top: 45px;
 	animation-delay: 1s;
 	/*background-color: red;*/
 }
@@ -779,7 +780,7 @@ num {display: none; visibility: hidden;}
 	/*background-color: red;*/
 }
 .gambaran_atas{
-	margin-top: -550px;
+	margin-top: -530px;
 	visibility: hidden;
 	margin-left: -11px;
 	/*animation-delay: 0.8s;*/

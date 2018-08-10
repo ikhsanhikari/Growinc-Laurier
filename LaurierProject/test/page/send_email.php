@@ -19,6 +19,6 @@
 ?>
 
 <script>
-    window.location="../index.php?message=success";
+    window.location="../../index.php?message=success";
 
 </script>
