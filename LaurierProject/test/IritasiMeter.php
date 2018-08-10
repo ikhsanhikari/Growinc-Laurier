@@ -93,17 +93,31 @@ if($is_mobile == TRUE){
 			
 		</div>
 		
-		<div class="col-md-1 menu-lp">
-			<div class="row menu_kok_bisa" >
-				<a href="../index.php"><img id="btn-story" src="img/btn-story.png" class="responsive"></a>
+		<div class="col-md-1  menu-lp" >
+			<div  class="row" style="margin-left: -80px;color: #59595b;font-family: 'myWebFont';">
+				<label style="visibility: hidden;" class="txt-story">
+					Full Story	
+				</label>
+				<a href="../index.php" style="float: right;margin-top: -53px;margin-right: 35px"><img class="btn-story" width="80px" src="img/btn-story.png"></a>
+				
 			</div>
 			<br>
 			<div class="row">
-				<a href="http://menstruasi.com"><img id="btn-ask" src="img/btn-ask.png" class="responsive"></a>
+				<label style="visibility: hidden;margin-left: -80px;color: #59595b;font-family: 'myWebFont';" class="txt-ask">
+					Ask <br>	
+					Dr. Laurier	
+				</label>
+				<a style="float: right;margin-top: -50px;margin-right: 35px" href="https://menstruasi.com/dr-laurier" target="_blank"><img class="btn-ask" src="img/btn-ask.png"></a>	
+				
 			</div>
 			<br>
 			<div class="row">
-				<a data-toggle="modal" data-target="#myModal" ><img id="btn-try" src="img/btn-try.png"></a>	
+				<label style="visibility: hidden;margin-left: -80px;color: #59595b;font-family: 'myWebFont';" class="txt-try">
+					Try <br>	
+					Now!	
+				</label>
+				<a data-toggle="modal" style="float: right;margin-top: -50px;margin-right: 35px" data-target="#myModal" ><img class="btn-try" src="img/btn-try.png"></a>
+					
 			</div>
 		</div>
 	</div>
@@ -151,6 +165,44 @@ if($is_mobile == TRUE){
 		  }
 		  x[slideIndex-1].style.display = "block";  
 		}
+	</script>
+	<script type="text/javascript">
+		$('.btn-meter').hover(function(){
+			$('.btn-meter').css("width","80px");
+			$('.btn-meter').css("cursor","pointer");
+			$('.txt-meter').css("visibility","visible");
+		},function(){
+			$('.btn-meter').css("width","70px");
+			$('.btn-meter').css("cursor","pointer");
+			$('.txt-meter').css("visibility","hidden");
+		});
+		$('.btn-ask').hover(function(){
+			$('.btn-ask').css("width","80px");
+			$('.btn-ask').css("cursor","pointer");
+			$('.txt-ask').css("visibility","visible");
+		},function(){
+			$('.btn-ask').css("width","70px");
+			$('.btn-ask').css("cursor","pointer");
+			$('.txt-ask').css("visibility","hidden");
+		});
+		$('.btn-story').hover(function(){
+			$('.btn-story').css("width","80px");
+			$('.btn-story').css("cursor","pointer");
+			$('.txt-story').css("visibility","visible");
+		},function(){
+			$('.btn-story').css("width","70px");
+			$('.btn-story').css("cursor","pointer");
+			$('.txt-story').css("visibility","hidden");
+		});
+		$('.btn-try').hover(function(){
+			$('.btn-try').css("width","80px");
+			$('.btn-try').css("cursor","pointer");
+			$('.txt-try').css("visibility","visible");
+		},function(){
+			$('.btn-try').css("width","70px");
+			$('.btn-try').css("cursor","pointer");
+			$('.txt-try').css("visibility","hidden");
+		});
 	</script>
 		</section>
 		

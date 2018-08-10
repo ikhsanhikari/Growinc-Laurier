@@ -134,10 +134,11 @@ body{
 }
 
 @font-face{
-	font-family:"Just tell me what"; 
+	font-family:"myWebFont"; 
 	src:url('../font/Just_tell_me_what_regular.otf');
 
 } /* Kode Import Font */
+
 
 
 .kata{
