@@ -1,0 +1,1041 @@
+body{
+	background-color:#e0eaf6; 
+}
+.tlt{
+	font-size: 120px;
+	color: rgb(96,118,156);
+	font-family: 'MyWebFont';
+	text-align: center;
+	margin-top: 20%;
+	font-size: 158.13px;
+	/*background-color: white;*/
+}
+.menu_kok_bisa{
+	margin-top: 140px;
+}
+
+/*div{
+	visibility:hidden;
+	position: relative;
+	-webkit-animation-name: example;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}*/
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../font/Just_tell_me_what_regular.otf')
+}
+
+/*@-webkit-keyframes example {
+    0%   { left:0px; top:100px;visibility:visible;}
+    10%  { left:0px; top:0px;visibility:visible;}
+    100% {visibility:visible;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}*/
+.nav-bar-left{
+	margin-top: 50%;
+	list-style: none;
+}
+
+.wanita{
+	
+	margin-top: 17%;
+	margin-left: 10%;
+	float: right;
+	
+	z-index:1;
+	animation-delay: 0.6s
+}
+
+#dont-get{
+	width: 40%
+}
+.dont-get-iritated{
+	animation-delay: 1.5s;
+	width: 170%;
+	margin-left: 0%;
+	margin-top: 0%;
+	position: absolute;
+	z-index: 2;
+}
+.kata_merasa{
+	animation-delay: 1.9s;
+	margin-top: 2%;
+	
+	
+	margin-left: 13%;
+	float: right;
+}
+.tangan-wanita{
+
+	animation-delay: 1s;
+	z-index: 2;
+	position: absolute;
+	margin-top: 57%;
+	margin-left: 42%;
+}
+.menu-lp{
+	margin-top: 200px;
+	/*margin-left: 50px*/
+}
+.scroll{
+	float: left;
+	margin-top: -3%;
+	margin-left: 40%;
+	animation-delay: 2;
+	/*background-color: red;*/
+}
+#btn-meter:hover{
+	width: 80px;
+	cursor: pointer
+	/*height: 100px*/
+}
+#btn-ask:hover{
+	width: 80px;
+	cursor: pointer
+	/*height: 100px*/
+}
+#btn-try:hover{
+	width: 80px;
+	cursor: pointer
+	/*height: 100px*/
+}
+#btn-story:hover{
+	width: 80px;
+	cursor: pointer;
+	/*height: 100px*/
+}
+
+/*hamalan 4*/
+
+.kata-kata4{
+	/*float: left;*/
+	margin-top:55px;
+}
+.cewe4{
+	float: right;
+	margin-top: -370px;
+	margin-right: 150px;
+}
+
+/*kelopak*/
+.kotakkelopak{
+	float: right;
+	margin-top: -340px;
+	margin-right: -90px;
+	visibility: hidden;
+}
+.tekskelopak{
+	font-size: 25.9px;
+	float: right;
+	margin-right: 60px;
+	margin-top: -300px;
+	color: #fff;
+	font-family: 'MyWebFont';
+	visibility: hidden;
+	animation-delay: .0.5s;
+	margin-right: -23px;
+}
+.tekskelopakkecil{
+	font-size: 20.9px;
+}
+
+.gariskelopak{
+	float: right;
+	margin-right: -258px;
+	margin-top: -320px;
+	visibility: hidden;
+}
+.radiokelopak{
+	float: right;
+	margin-right: -205px;
+	margin-top: -265px;
+	animation-delay: 1.5s;
+}
+
+
+
+/*kewanitaan*/
+.kotakkewanitaan{
+	float: right;
+	margin-top: -40px;
+	margin-right: -600px;
+	visibility: hidden;
+}
+.tekskewanitaan{
+	font-size: 23px;
+	float: right;
+	margin-right: -543px;
+	margin-top: 0px;
+	color: #fff;
+	font-family: 'MyWebFont';
+	visibility: hidden;
+	animation-delay: .0.5s;
+}
+.tekskewanitaankecil{
+	font-size: 20px;
+}
+.gariskewanitaan{
+	float: right;
+	margin-right: -410px;
+	margin-top: -82px;
+	visibility: hidden;
+}
+.radiokewanitaan{
+	float: right;
+	margin-right: -240px;
+	margin-top: -39px;
+	animation-delay: 1.5s;
+}
+/*lengan*/
+.kotaklengan{
+	float: right;
+	margin-top: -200px;
+	margin-right: -600px;
+	visibility: hidden;
+}
+.tekslengan{
+	font-size: 25.9px;
+	float: right;
+	margin-right: -530px;
+	margin-top: -160px;
+	color: #fff;
+	font-family: 'MyWebFont';
+	visibility: hidden;
+}
+.tekslengankecil{
+	font-size: 20.9px;
+}
+.garislengan{
+	float: right;
+	margin-top: -180px;
+	margin-right: -400px;
+	visibility: hidden;
+}
+.radiolengan{
+	float: right;
+	margin-right: -305px;
+	margin-top: -152px;
+	animation-delay: 1.5s;
+}
+/*pipi*/
+.kotakpipi{
+	float: right;
+	margin-top: -300px;
+	margin-right: -600px;
+	visibility: hidden;
+}
+.tekspipi{
+	font-size: 25.9px;
+	float: right;
+	margin-right: -510px;
+	margin-top: -265px;
+	color: #fff;
+	font-family: 'MyWebFont';
+	visibility: hidden;
+}
+.tekspipikecil{
+	font-size: 20.9px;
+	margin-right: -520px;
+	/*visibility: hidden;*/
+}
+.garispipi{
+	float: right;
+	margin-right: -410px;
+	margin-top: -295px;
+	visibility: hidden;
+}
+.radiopipi{
+	float: right;
+	margin-right: -255px;
+	margin-top: -250px;
+	animation-delay: 1.5s;
+}
+
+/*telapak*/
+.kotaktelapak{
+	float: right;
+	margin-right: -70px;
+	margin-top: -100px;
+	visibility: hidden;
+}
+.tekstelapak{
+	font-size: 25.9px;
+	float: right;
+	margin-right: -195px;
+	margin-top: -65px;
+	color: #fff;
+	font-family: 'MyWebFont';
+	visibility: hidden;
+}
+.tekstelapakkecil{
+	font-size: 20.9px;
+}
+.garistelapak{
+	float: right;
+	margin-right: -290px;
+	margin-top: -90px;
+	visibility: hidden;
+}
+.radiotelapak{
+	float: right;
+	margin-right: -290px;
+	margin-top: -48px;
+	animation-delay: 1.5s;
+}
+
+/*tumit*/
+.kotaktumit{
+	float: right;
+	margin-right: -265px;
+	margin-top: 70px;
+	visibility: hidden;
+}
+.tekstumit{
+	font-size: 25.9px;
+	float: right;
+	margin-right: -167px;
+	margin-top: 105px;
+	color: #fff;
+	font-family: 'MyWebFont';
+	visibility: hidden;
+}
+.tekstumitkecil{
+	font-size: 20.9px;
+}
+.garistumit{
+	float: right;
+	margin-right: -400px;
+	margin-top: 100px;
+	visibility: hidden;
+}
+.radiotumit{
+	float: right;
+	margin-right: -397px;
+	margin-top: 237px;
+	animation-delay: 1.5s;
+}
+
+/*torso*/
+.kotaktorso{
+	float: right;
+	margin-top: -230px;
+	margin-right: -258px;
+	visibility: hidden;
+}
+.tekstorso{
+	font-size: 25.9px;
+	float: right;
+	margin-right: -160px;
+	margin-top: -195px;
+	color: #fff;
+	font-family: 'MyWebFont';
+	visibility: hidden;
+}
+.tekstorsokecil{
+	font-size: 20.9px;
+}
+.garistorso{
+	float: right;
+	margin-top: -190px;
+	margin-right: -395px;
+	visibility: hidden;
+}
+.radiotorso{
+	float: right;
+	margin-right: -387px;
+	margin-top: -110px;
+	animation-delay: 1.5s;
+}
+
+
+
+
+/*radio custom*/
+.containerradio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containerradio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerradio:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerradio input:checked ~ .checkmark {
+    background-color: #fff;
+    border:1px solid rgb(96,118,156);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerradio input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerradio .checkmark:after {
+ 	top: 5px;
+	left: 5px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: rgb(96,118,156);
+}
+
+
+
+/*hubungan menstruasi*/
+.buletan{
+	/*background-color: red;*/
+	width: 100%;
+	margin-top: 90px;
+	margin-left: 90px;
+}
+.kotakpink{
+	margin-top: -410px;
+	margin-left: 122px;
+	animation-delay: 0.059s;
+}
+.kotakbiru{
+	margin-top: -244px;
+	margin-left: -127px;
+}
+.keringat{
+	margin-top: -560px;
+	margin-left: 230px;
+}
+.teksputih{
+	color: rgb(96,118,156);
+	font-family: 'MyWebFont';
+	font-size:24px;
+	margin-left: 320px;
+	margin-top: -75px;
+}
+
+.tekspink{
+	color: rgb(96,118,156);
+	font-family: 'MyWebFont';
+	font-size:24px;
+	margin-left: 285px;
+	margin-top: 50px;
+}
+.teksbiru{
+	color: rgb(96,118,156);
+	font-family: 'MyWebFont';
+	font-size:24px;
+	margin-left: 285px;
+	margin-top: 95px;
+}
+.suhu{
+	margin-top: -510px;
+	margin-left: -200px;
+}
+.tekspara1{
+	color: rgb(96,118,156);
+	font-family: 'MyWebFont';
+	font-size: 31.48px;
+	margin-top: 70px;
+	/*width: 380px;*/
+	/*background-color: red;*/
+	/*padding-right: 10px*/
+}
+.tekspara2{
+	color: #59595b;
+	font-family: 'MyWebFont';
+	font-size: 27px;
+	margin-top: 20px;
+	width: 400px;
+}
+.judulpara3{
+	color: rgb(96,118,156);
+	font-family: 'MyWebFont';
+	font-size: 31.48px;
+	margin-top: 20px		
+}
+.ket{
+	color: #59595b;
+	font-family: 'MyWebFont';
+	font-size: 22.84px;
+	margin-top: 10px			
+}
+.ket1{
+	color: #59595b;
+	font-family: 'MyWebFont';
+	font-size: 22.84px;
+	margin-top: 0px			
+}
+.prsnmerah{
+	margin-top: -120px;
+	margin-left: 145px;			
+}
+.prsnpink{
+	margin-top: -75px;
+	margin-left: 139px;			
+}
+.prsnbiru{
+	margin-top: -65px;
+	margin-left: 136px;			
+}
+.ketprsn{
+	color: rgb(96,118,156);
+	font-family: 'MyWebFont';
+	font-size: 22.84px;
+	margin-top: -123px;
+	margin-left:420px;		
+}
+.ketprsn2{
+	color: rgb(96,118,156);
+	font-family: 'MyWebFont';
+	font-size: 22.84px;
+	margin-top: 0px;
+	margin-left:410px;		
+}
+.ketprsn3{
+	color: rgb(96,118,156);
+	font-family: 'MyWebFont';
+	font-size: 22.84px;
+	margin-top: 0px;
+	margin-left:325px;		
+}
+
+.thermo{
+	margin-left: -890px;
+	margin-top: -130px
+}
+
+
+
+
+
+#thermometer .goal {
+    position: absolute;
+    right: 36px;
+    top: 0;
+
+}
+#thermometer .amount {
+    border-top: 1px solid #000;
+    color: black;
+    display: inline-block;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 0 75px 0 0;
+    width: 50%;
+}
+#thermometer .progress .amount {
+    border-top: 1px solid #006600;
+    color: #fff;
+    left: 0;
+    padding: 0 0 0 75px;
+    position: absolute;
+}
+#thermometer {
+    border-radius: 12px;
+    height: 300px;
+    margin-top:140px;
+    position: relative;
+}
+#thermometer .track {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 8px;
+    height: 200px;
+    left: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    width: 20px;
+    border: solid 4px rgb(163,201,235);
+}
+#thermometer .progress {
+    background: rgb(234,108,111) none repeat scroll 0 0;
+    border-radius: 23px 23px 0 0;
+    bottom: 0;
+    height: 0;
+    left: 0px;
+    margin-bottom: 0 !important;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+#thermometer .goal {
+    position: absolute;
+    right: 36px;
+    top: 0;
+}
+#thermometer .amount {
+    border-top: 1px solid #000;
+    color: black;
+    display: inline-block;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 0 75px 0 0;
+    width: 50%;
+}
+#thermometer .progress .amount {
+    border-top: 1px solid #006600;
+    color: #fff;
+    left: 0;
+    padding: 0 0 0 75px;
+    position: absolute;
+}
+.bulb {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: -12px;
+    display: block;
+    height: 40px;
+    left: -14px;
+    padding: 10px;
+    position: absolute;
+    width: 40px;
+    border: 4px solid rgb(163,201,235);
+}
+.inner-bulb {
+    background-color: rgb(234,108,111);
+    border-radius: 50%;
+    height: 32px;
+    left: -10px;
+    position: relative;
+    top: -10px;
+    width: 32px;
+}
+num {display: none; visibility: hidden;}
+
+
+
+
+
+
+
+
+
+/*halaman bunga*/
+.btn-kenali:hover{
+	cursor: pointer;
+	width: 77%;
+}
+.btn-bunga{
+	margin-left: 35px;
+	margin-top: 200px
+}
+.smart-obj{
+	margin-left: 180px;
+	margin-top: -70px;
+	/*background-color: red;*/
+}
+.bunga{
+	float: right;
+	margin-right: 360px;
+	margin-top: -515px;
+	z-index: 0;
+	position: relative;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: bungaanime;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    /* Standard syntax */
+    animation-name: bungaanime;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.nah_kenalin{
+	font-family : 'MyWebFont';
+	color: red;
+	color: #58595b;
+	font-family: 'MyWebFont';
+	font-size: 44.6px;
+	margin-left: 150px;
+	margin-top: 75px;
+}
+.kata-standard{
+	margin-top: 45px;
+	position: relative;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: bungaanime;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    /* Standard syntax */
+    animation-name: bungaanime;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 1;
+}
+
+.kata-ruam{
+	margin-top: 45px;
+	margin-left: 500px;	
+}
+@-webkit-keyframes bungaanime {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes bungaanime {
+    0%   { left:0px; top:0px;}
+    25%  { left:10px; top:0px;}
+    50%  { left:10px; top:10px;}
+    75%  { left:0px; top:10px;}
+    100% { left:0px; top:0px;}
+}
+
+
+/*usp produk*/
+.bebas_lembap{
+	margin-left: 70px;
+	margin-top: 100px;
+	font-family: 'MyWebFont';
+	font-size: 37.39px;
+	color: rgb(96,118,156);
+}
+.laurier_healtly{
+	margin-left: 70px;
+	font-family: 'MyWebFont';
+	font-size: 23.73px;
+	color: #58595b;
+}
+.produk{
+	margin-left: 56px;
+	margin-top: 100px;
+}
+.pad{
+	margin-top: 40px;
+	margin-left: 220px;
+}
+.pointer_1{
+	margin-left: 520px;
+	margin-top: -426px;
+	animation-delay: 1s;
+	/*background-color: red;*/
+}
+.pointer_2{
+	margin-left: 410px;
+	margin-top: 47px;
+	animation-delay: 1s;
+	/*background-color: red;*/
+}
+.pointer_3{
+	margin-left: 420px;
+	margin-top: 58px;
+	animation-delay: 1s;
+	/*background-color: red;*/
+}
+.gambaran_atas{
+	margin-top: -550px;
+	visibility: hidden;
+	margin-left: -11px;
+	/*animation-delay: 0.8s;*/
+	/*background-color: red;*/
+}
+.gambaran_tengah{
+	margin-top: -390px;
+	margin-left: -50px;
+	visibility: hidden;
+	/*background-color: red;*/
+}
+.gambaran_bawah{
+	margin-top: -180px;
+	margin-left: -45px;
+	visibility: hidden;
+	/*background-color: red;*/
+
+}
+.product_detail{
+	margin-left: -510px;
+	margin-top: 175px
+}
+
+
+
+/*halaman_form*/
+.dapatkan_sampel,input{
+	font-family:'MyWebFont';
+	color: #58595b;
+}
+
+
+
+/*iritation statistic start*/
+.iritation-statistic{
+	width: 100%; 
+	margin-left: 10%; 
+	margin-top: 5%;;
+	/*visibility: hidden;*/
+}
+
+.hurufiritasi{
+	font-family: "MyWebFont";
+	color: rgb(89,89,91);
+	font-size: 30px;
+	margin-top: 10%;
+	margin-left: 8%;
+	text-align: center;
+}
+
+.hurufiritasi1{
+	font-family: "MyWebFont";
+	color: rgb(89,89,91);
+	font-size: 30px;
+	margin-top: -1%;
+	margin-left: 10%;
+	text-align: center;
+}
+
+.pinggir{
+	margin-top: 30%;
+}
+#g8{
+	animation-delay: 2s
+}
+#g2{
+	animation-delay: 4s
+}
+/*solusi start*/
+.hurufsolusi{
+	font-family: "MyWebFont";
+	color: rgb(89,89,91);
+	font-size: 48.18px;
+	margin-top: 10%;
+	margin-left: 8%;
+	text-align: center;
+}
+.hurufsolusi1{
+	font-family: "MyWebFont";
+	color: rgb(89,89,91);
+	font-size: 48.18px;
+	margin-top: -10px;
+	margin-left: 8%;
+	text-align: center;
+}
+
+
+
+/*kegiatan*/
+.huruf{
+	font-family: "MyWebFont";
+	color: rgb(89,89,91);
+	font-size: 26px;
+	margin-top: 5%;
+	margin-left: 15%;
+	text-align: center;
+
+}
+
+.huruf2{
+	font-family: "MyWebFont";
+	color: rgb(89,89,91);
+	font-size: 26px;
+	margin-top: -1%;
+	margin-left: 10%;
+	text-align: center;
+	/*animation-delay: .50s;*/
+}
+
+.huruf3{
+	font-family: "MyWebFont";
+	color: rgb(89,89,91);
+	font-size: 24.7px;
+	margin-top: 3%;
+	margin-left: 15%;
+	text-align: center;
+	/*animation-delay: .50s;*/
+}
+
+.Gojek{
+	margin-top: 3%;
+	margin-left: 13%;
+	width: 34%;
+	/*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+	/*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+}
+
+#gambar1:hover{
+	-webkit-box-shadow: 1px 1px 5px 5px #21AEFF;
+	box-shadow: 1px 1px 5px 5px #21AEFF;
+}
+
+.Gym{
+	margin-top: -31%;
+	margin-left: 45%; 
+	animation-delay: .45s;
+	width: 34%;
+}
+
+#gambar2:hover{
+	-webkit-box-shadow: 1px 1px 5px 5px #21AEFF;
+	box-shadow: 1px 1px 5px 5px #21AEFF;
+}
+
+.Train{
+	margin-top: -31.5%;
+	margin-left: 74%;
+	animation-delay: .80s;
+	width: 34%;
+}
+
+#gambar3:hover{
+	-webkit-box-shadow: 1px 1px 5px 5px #21AEFF;
+	box-shadow: 1px 1px 5px 5px #21AEFF;
+}
+
+.pinggir{
+	
+	margin-top: 30%;
+}
+
+.lembap{
+	margin-left: 15%;
+	margin-top: -4%;
+}
+
+.emot{
+	margin-left: 10%;
+	margin-top: -13%;
+}
+
+.emot2{
+	margin-left: 30%;
+	margin-top: -13%;
+}
+
+.emot3{
+	margin-left: 40%;
+	margin-top: -13%;
+    
+}
+@-webkit-keyframes emot {
+    0%   {left:0px; top:0px;}
+    /*25%  {left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}*/
+    100% {left:300px; top:0px;}
+}
+
+@-webkit-keyframes Endemot {
+    0%   {left:0px; top:0px;}
+    /*25%  {left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}*/
+    100% {left:350px; top:0px;}
+}
+
+
+.jalan{
+	position: relative;
+	-webkit-animation-name: emot; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    -webkit-fill-mode: forwards;
+    /*margin-left: 38%;*/
+}
+
+.Endjalan{
+	-webkit-animation-name: Endemot; /* Safari 4.0 - 8.0 */
+	margin-left: 38%;
+	margin-top: -13%;
+    -webkit-animation-iteration-count: 0; /* Safari 4.0 - 8.0 */
+}
+
+
+@-webkit-keyframes emotGym {
+    0%   {left:310px; top:0px;}
+    /*25%  {left:200px; top:0px;}*/
+    /*50%  { left:400px; top:0px;}*/
+    /*75%  { left:0px; top:200px;}*/
+    100% {left:600px; top:0px;}
+}
+
+
+@-webkit-keyframes EndemotGym {
+    0%   {left:300px; top:0px;}
+    /*25%  {left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}*/
+    /*100% {left:300px; top:0px;}*/
+}
+
+.jalan2{
+	position: relative;
+	-webkit-animation-name: emotGym; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    
+}
+
+.Endjalan2{
+	-webkit-animation-name: EndemotGym; /* Safari 4.0 - 8.0 */
+	margin-left: 38%;
+	margin-top: -13%;
+    -webkit-animation-iteration-count: 0; /* Safari 4.0 - 8.0 */
+
+}
+
+@-webkit-keyframes emotTrain {
+    0%   {left:610px; top:0px;}
+    /*25%  {left:200px; top:0px;}*/
+    /*50%  { left:400px; top:0px;}*/
+    /*75%  { left:0px; top:200px;}*/
+    100% {left:900px; top:0px;}
+}
+
+.jalan3{
+	position: relative;
+	-webkit-animation-name: emotTrain; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+}

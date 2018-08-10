@@ -13,10 +13,10 @@ $is_mobile =FALSE;
   }
 
 
-if($is_mobile == FALSE){
+if($is_mobile == TRUE){
 	?>
 	<script>
-    window.location = '../index.php';
+    window.location = 'm/index.php';
 	</script>
 	<?php
 }
@@ -53,7 +53,7 @@ if($is_mobile == FALSE){
 	<script type="text/javascript" src="js/w3.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<!-- texFX -->
 	<script type="text/javascript" src="js/jquery.transit.js"></script> 
 	<script type="text/javascript" src="jquery.textFx.js"></script>
@@ -61,69 +61,102 @@ if($is_mobile == FALSE){
 	
 </head>
 <body>
-	<?php include("page/modal_try_now.php") ?>
-	<?php include("page/modal_buy_now.php") ?>
-	<?php include("page/modal_form.php") ?>
-	<?php include("page/modal_terimakasih.php") ?>
+	<?php include("../page/modal_try_now.php") ?>
+	<?php include("../page/modal_buy_now.php") ?>
+	<?php include("../page/modal_form.php") ?>
+	<?php include("../page/modal_terimakasih.php") ?>
 	<div>
-		<img src="img/Logo.png" style="position: fixed;">
+		<!-- <img src="img/Logo.png" style="position: fixed;"> -->
 		<!-- <h1 style="color: black; position: fixed;">Logo</h1> -->
 	</div>
 	<div class="main">
-		<section class="page one" id="tesOne" style="background-image: url('img/landing-page.png');">
-			<?php include("page/landing_page.php") ?>
+		<section class="page one" > 
+			<div class="row">
+		<div class="col-md-11" id="container">
+			<div class="nomor1">
+				<img src="img/nomor1.png" id="nomor1">
+			</div>
+			
+			<div class="col-md-6">
+				<div class="hanger">
+					<img src="img/hanger.png" class="responsive" id="hanger" onclick="hitung_iritasi(1,20)">
+				</div>
+				<div class="tisu">
+					<img src="img/tisu.png" class="responsive" id="tisu" onclick="hitung_iritasi(1,0)">
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="bawah">
+					<img src="img/meter.png">
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="col-md-1 menu-lp">
+			<div class="row menu_kok_bisa" >
+				<a href="../index.php"><img id="btn-story" src="img/btn-story.png" class="responsive"></a>
+			</div>
+			<br>
+			<div class="row">
+				<a href="http://menstruasi.com"><img id="btn-ask" src="img/btn-ask.png" class="responsive"></a>
+			</div>
+			<br>
+			<div class="row">
+				<a data-toggle="modal" data-target="#myModal" ><img id="btn-try" src="img/btn-try.png"></a>	
+			</div>
+		</div>
+	</div>
 		</section>
 		
 		<section class="page two" id="two" >
-			<?php //include("page/iritation_statistic.php") ?>
+			<div>
+		<h1 class="huruf tlt">#DontGetIrritated to Care,#DontDontGetIrritated to Share!</h1>
+		<h1 class="huruf2 tlt">Sharing is caring,Girls! pilih dan share faktanya ke orang terdekatmu</h1>
+		<h1 class="huruf2 tlt">agar mereka lebih peduli kesehatan kulit selama mensturasi</h1>
+	</div>
+
+	<div class="slider">
+	  <img src="img/bingkai.png" style="width: 65%; margin-top: -1%;">
+	  <img class="mySlides" src="img/sub_iritation.png" style="width: 55%; margin-top: -37%; margin-left: 5%;">
+	  <img class="mySlides" src="img/sub_iritation2.png" style="width: 55%; margin-top: -37%; margin-left: 5%;">
+	  <img class="mySlides" src="img/sub_iritation3.png" style="width: 55%; margin-top: -37%; margin-left: 5%;">
+	  <img class="mySlides" src="img/sub_iritation4.png" style="width: 55%; margin-top: -37%; margin-left: 5%; ">
+
+	  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+	  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+	
+	<div>
+		<a href="http://www.facebook.com/sharer.php?s=100&p[title]=prettySocial%20-%20custom%20social%20share%20buttons.&p[summary]=Custom%20share%20buttons%20for%20Pinterest%2C%20Twitter%2C%20Facebook%20and%20Google%20Plus.&p[url]=http%3A%2F%2F36.72.85.69/Laurier/index.php"><img src="img/btnShare.png" style="margin-left: 38%; margin-top: 3%;"></a>
+	</div>
+
+
+
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+	</script>
 		</section>
 		
-		<section class="page three" >
-			<?php //include("page/kok_bisa.php") ?>
-		</section>
-
-
-		<!-- four -->
-		<section class="page four" >
-			<?php //include("page/penjabaran_tubuh_wanita.php") ?>
-		</section>
-
-
-		<!-- five -->
-
-		<section class="page five" >
-			<?php //include("page/hubungan_menstruasi_iritasi.php") ?>
-		</section>
-
-		<!-- six -->
-
-		<section class="page six" >
-			<?php //include("page/kegiatan.php") ?>
-		</section>
-
-		<!-- seven -->
-
-		<section class="page seven" >
-			<?php //include("page/kenali_tanda_tanda.php") ?>
-		</section>
-
-		<!-- eight -->
-
-		<section class="page eight" >
-			<?php //include("page/solusi.php") ?>
-		</section>
-
-		<!-- nine -->
-
-		<section class="page nine" >
-			<?php //include("page/usp_product.php") ?>
-		</section>				
 		
-		<!-- nine -->
 
-		<section class="page ten" >
-			<?php //include("page/mengajak_test.php") ?>
-		</section>
+		
 	</div>
 
 
@@ -147,56 +180,6 @@ if($is_mobile == FALSE){
 		$('.tangan-wanita').addClass('animated fadeInUp');
 		$('.dont-get-iritated').addClass('animated slideInLeft');
 		$('.kata_merasa').addClass('animated zoomInUp');
-
-		$('.btn-meter').hover(function(){
-			$('.btn-meter').css("width","80px");
-			$('.btn-meter').css("cursor","pointer");
-			$('.txt-meter').css("visibility","visible");
-		},function(){
-			$('.btn-meter').css("width","70px");
-			$('.btn-meter').css("cursor","pointer");
-			$('.txt-meter').css("visibility","hidden");
-		});
-		$('.btn-ask').hover(function(){
-			$('.btn-ask').css("width","80px");
-			$('.btn-ask').css("cursor","pointer");
-			$('.txt-ask').css("visibility","visible");
-		},function(){
-			$('.btn-ask').css("width","70px");
-			$('.btn-ask').css("cursor","pointer");
-			$('.txt-ask').css("visibility","hidden");
-		});
-		$('.btn-story').hover(function(){
-			$('.btn-story').css("width","80px");
-			$('.btn-story').css("cursor","pointer");
-			$('.txt-story').css("visibility","visible");
-		},function(){
-			$('.btn-story').css("width","70px");
-			$('.btn-story').css("cursor","pointer");
-			$('.txt-story').css("visibility","hidden");
-		});
-		$('.btn-try').hover(function(){
-			$('.btn-try').css("width","80px");
-			$('.btn-try').css("cursor","pointer");
-			$('.txt-try').css("visibility","visible");
-		},function(){
-			$('.btn-try').css("width","70px");
-			$('.btn-try').css("cursor","pointer");
-			$('.txt-try').css("visibility","hidden");
-		});
 	</script>
-	<?php
-if(isset($_GET['message'])){
-	if($_GET['message']=="success"){
-		?>
-		<script type="text/javascript">
-			document.getelementbyid('modal_tank_you').style.display = "block";
-			$('#modal_tank_you').modal('toggle');
-    		$('#modal_tank_you').modal('show');
-		</script>
-		<?php
-	}
-}
-	?>
 </body>
 </html>

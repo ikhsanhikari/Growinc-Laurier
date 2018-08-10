@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hubungan Menstruasi dan Iritasi</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+	<meta name="author" content="Author for Tutorial-webdesign.com" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+	
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+	<link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
+  	<link href="assets/animate.css" rel="stylesheet">
+  	<link href="assets/style.css" rel="stylesheet">
+  	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+  	<link rel="stylesheet" type="text/css" href="font/Just_tell_me_what_regular.otf">
+  	<link rel="stylesheet" type="text/css" href="font/Just_tell_me_what_regular_Italic.otf">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-6" id="kiri">
+			<div class="buletan" >
+				<img src="img/buletansesuai.png"  class="responsive">
+			</div>
+			<div class="kotakpink">
+				<img src="img/kotakPink.png">
+			</div>
+			<div class="kotakbiru">
+				<img src="img/kotakBiru.png">
+			</div>
+			<div class="keringat">
+				<img src="img/tetesanAir.png">
+			</div>
+			
+			<div class="teksputih">
+				Keringat
+			</div>
+			<div class="tekspink">
+				&nbsp&nbspKulit Area<br/> Kewanitaan
+			</div>
+			<div class="teksbiru">
+				Pembalut
+			</div>
+			<div class="suhu">
+				<div id="thermometer">
+            <div class="track">
+                <div class="goal" style="height: 100%;width: 150px;">
+                    <div class="amount" id="goalAmount" style="height: 20%; visibility:hidden"><num>500</num></div>
+                     <!-- <div class="amount" style="height: 20%;"> </div>
+                     <div class="amount" style="height: 20%;"> </div>
+                     <div class="amount" style="height: 20%;"> </div>
+                     <div class="amount" style="height: 20%;"> </div> -->
+                </div>
+                <div class="progress">
+                    <div style="display: block;width: 150px;" class="amount" id="progessAmount">400 </div>
+                </div>
+        <div class="bulb"><div class="inner-bulb"></div></div>
+            </div>
+        </div>
+			</div>
+		</div>
+		<div class="col-md-5">
+			<div class="row tekspara1">
+				Apalagi Ketika Menstruasi,<br/> 
+				Area Keawanitaanmu akan jadi lebih lembap<br/>
+				dan lebih sensitif dari biasanya.
+			</div>
+			<div class="row tekspara2">
+				Ditambah pemakaian pembalut juga <br/> 
+				menyebabkan pengap dan panas yang <br/>
+				bisa bikin area kewanitaanmu lembap<br/> 
+				dan gampang iritasi. Oh, no!
+			</div>
+			<div class="row judulpara3">
+				Tingkat Kelembapan:
+			</div>
+			<div class="row ket">
+				Menstruasi banyak 
+			</div>
+			<div class="row ket1">
+				Menstruasi ringan 
+			</div>
+			<div class="row ket1">
+				Tidak menstruasi 
+			</div>
+			<div class="row prsnmerah">
+				<img src="img/persentaseMerah.png">
+			</div>
+			<div class="row prsnpink">
+				<img src="img/persentasePink.png">
+			</div>
+			<div class="row prsnbiru">
+				<img src="img/persentaseBiru.png">
+			</div>
+			<div class="row ketprsn">
+				88% 
+			</div>
+			<div class="row ketprsn2">
+				86% 
+			</div>
+			<div class="row ketprsn3">
+				67% 
+			</div>
+		</div>
+		<div class="col-md-1">
+			<div class="row menu_kok_bisa" >
+				<a href=""><img src="img/btn-story.png" class="responsive"></a>
+			</div>
+			<br>
+			<div class="row">
+				<a href=""><img src="img/btn-meter.png" class="responsive"></a>
+			</div>
+			<br>
+			<div class="row">
+				<a href=""><img src="img/btn-ask.png" class="responsive"></a>
+			</div>
+			<br>
+			<div class="row">
+				<a href=""><img src="img/btn-try.png" class="responsive"></a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$("#kiri").addClass('animated fadeInLeft');
+		
+		// $(".kotakpink").addClass('animated fadeInLeft');
+		
+		// $(".kotakbiru").addClass('animated fadeInLeft');
+		
+		// $(".tekspink").addClass('animated fadeInLeft');
+		// $(".teksbiru").addClass('animated fadeInLeft');
+		// $(".teksputih").addClass('animated fadeInLeft');
+
+		$(".suhu").addClass('animated fadeInLeft');
+
+	
+		// $(".keringat").addClass('animated fadeInLeft');
+		// $(".prsnbiru").addClass('animated fadeInLeft');
+		// $(".prsnpink").addClass('animated fadeInLeft');
+		// $(".prsnmerah").addClass('animated fadeInLeft');
+		$(function () {
+			$('.tekspara1').textillate(
+				{ in: 
+					{ effect: 'fadeInLeft' ,
+						delayScale: 0,
+					} 
+				});
+		
+		});
+		$(function () {
+			$('.tekspara2').textillate(
+				{ in: 
+					{ effect: 'fadeInLeft' ,
+						delayScale: 0,
+						// reverse:true
+					} 
+				});
+		
+		});
+		$(function () {
+			$('.judulpara3').textillate(
+				{ in: 
+					{ effect: 'fadeInLeft' ,
+						delayScale: 0.5,
+					} 
+				});
+		
+		});
+		$(function () {
+			$('.ket').textillate(
+				{ in: 
+					{ effect: 'fadeInLeft' ,
+						delayScale: 0.1,
+					} 
+				});
+		
+		});
+		$(function () {
+			$('.ket1').textillate(
+				{ in: 
+					{ effect: 'fadeInLeft' ,
+						delayScale: 0.1,
+					} 
+				});
+		
+		});
+
+
+
+// thermo start
+
+// 	$(document).ready(function() {
+//        // JavaScript Document
+// function thermometer(goalAmount, progressAmount, animate) {
+//     "use strict";
+//     var $thermo = $("#thermometer"),
+//         $progress = $(".progress", $thermo),
+//         $goal = $(".goal", $thermo),
+//         percentageAmount;
+
+//     goalAmount = goalAmount || parseFloat($goal.text()),
+//     progressAmount = progressAmount || parseFloat($progress.text()),
+//     percentageAmount = Math.min(Math.round(progressAmount / goalAmount * 1000) / 10, 100); //make sure we have 1 decimal point
+
+//     $goal.find(".amount").text();
+//     $progress.find(".amount").text();
+
+//     $progress.find(".amount").hide();
+//     if (animate !== false) {
+//         $progress.animate({
+//             "height": percentageAmount + "%"
+//         }, 1200, function () {
+//             // $(this).find(".amount").fadeIn(200);
+//         });
+//     } else {
+//         $progress.css({
+//             "height": percentageAmount + "%"
+//         });
+//         $progress.find(".amount").fadeIn(200);
+//     }
+// }
+
+// $(document).ready(function () {
+
+//     thermometer();
+   
+// });
+
+    
+//        });  
+
+	</script>
+	<script type="text/javascript">
+    $(document).ready(function() {
+       // JavaScript Document
+function thermometer(goalAmount, progressAmount, animate) {
+    "use strict";
+    var $thermo = $("#thermometer"),
+        $progress = $(".progress", $thermo),
+        $goal = $(".goal", $thermo),
+        percentageAmount;
+
+    goalAmount = goalAmount || parseFloat($goal.text()),
+    progressAmount = progressAmount || parseFloat($progress.text()),
+    percentageAmount = Math.min(Math.round(progressAmount / goalAmount * 1000) / 10, 100); //make sure we have 1 decimal point
+
+    $goal.find(".amount").text();
+    $progress.find(".amount").text();
+
+    $progress.find(".amount").hide();
+    if (animate !== false) {
+        $progress.animate({
+            "height": percentageAmount + "%"
+        }, 1200, function () {
+            // $(this).find(".amount").fadeIn(200);
+        });
+    } else {
+        $progress.css({
+            "height": percentageAmount + "%"
+        });
+        $progress.find(".amount").fadeIn(200);
+    }
+}
+
+$(document).ready(function () {
+
+    thermometer();
+   
+});
+
+    
+       });  
+</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="assets/jquery.fittext.js"></script>
+	<script src="assets/jquery.lettering.js"></script>
+	<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+	<script src="jquery.textillate.js"></script>
+	
+</body>
+</html>

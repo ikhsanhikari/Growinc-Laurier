@@ -1,0 +1,247 @@
+*{
+	padding:0; margin:0;
+}
+
+h2{
+	font-family: 'Righteous', cursive;
+}
+p{
+	font-family: 'Voltaire', sans-serif;
+	color: #DDDDDD;
+	margin-right: 200px;
+}
+small{
+	color: #b69877;
+}
+small a, 
+p a{
+	color: #ddd;
+	text-decoration: none;
+}
+
+/* Header */
+header{
+	background: #5b264e;
+	padding: 10px 20px;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+header a{
+	color: #dddddd;
+	text-decoration: none;
+}
+header img{
+	float: left;
+}
+header h1{
+	margin-top:20px;
+	margin-left:80px;
+	font-family: 'Righteous', cursive;
+}
+
+/* Content */
+
+.page{
+	/*background: url(../img/twd-logo.png) right top no-repeat;*/
+}
+.one{
+	/*background-color: rgb(184,207,255);*/
+	background-size: 100% 100%;
+	background-image: url('img/landing-page.png');
+	z-index: 0;
+}
+	.one .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.one .page-container h2{
+			font-size: 4em;
+		}
+		.one .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+.two{
+	background-image: url("../img/2.png");
+	background-size: 100% 100%;
+}
+	.two .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.two .page-container h2{
+			font-size: 4em;
+		}
+		.two .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+
+.three{
+	background-image: url("../img/3.png");
+	background-size: 100% 100%;
+}
+	.three .page-container{
+		position: absolute;
+		bottom: 0px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.three .page-container h2{
+			font-size: 4em;
+		}
+		.three .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+
+.four{
+	background-image: url("../img/1.png");
+	background-size: 100% 100%;
+}
+	.four .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.four .page-container h2{
+			font-size: 4em;
+		}
+		.four .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+.five{
+	background-image: url("../img/1.png");
+	background-size: 100% 100%;
+}
+	.five .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.five .page-container h2{
+			font-size: 4em;
+		}
+		.five .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+.six{
+	background-image: url("../img/1.png");
+	background-size: 100% 100%;
+}
+	.six .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.six .page-container h2{
+			font-size: 4em;
+		}
+		.six .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+.seven{
+	background-image: url("../img/1.png");
+	background-size: 100% 100%;
+}
+	.seven .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.seven .page-container h2{
+			font-size: 4em;
+		}
+		.seven .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+.eight{
+	background-image: url("../img/1.png");
+	background-size: 100% 100%;
+}
+	.eight .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.eight .page-container h2{
+			font-size: 4em;
+		}
+		.eight .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+.nine{
+	background-image: url("../img/1.png");
+	background-size: 100% 100%;
+}
+	.nine .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.nine .page-container h2{
+			font-size: 4em;
+		}
+		.nine .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+.ten{
+	background-image: url("../img/1.png");
+	background-size: 100% 100%;
+}
+	.ten .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.ten .page-container h2{
+			font-size: 4em;
+		}
+		.ten .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}

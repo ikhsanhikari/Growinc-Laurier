@@ -1,0 +1,170 @@
+body{
+	background-color:#e0eaf6;
+	
+
+}
+
+@font-face{
+	font-family:"Just tell me what"; 
+	src:url('../font/Just_tell_me_what_regular.otf');
+
+} /* Kode Import Font */
+
+
+.huruf{
+	font-family: "Just Tell Me What";
+	color: rgb(89,89,91);
+	font-size: 26px;
+	margin-top: 5%;
+	margin-left: 15%;
+	text-align: center;
+
+}
+
+.huruf2{
+	font-family: "Just Tell Me What";
+	color: rgb(89,89,91);
+	font-size: 26px;
+	margin-top: -1%;
+	margin-left: 10%;
+	text-align: center;
+	/*animation-delay: .50s;*/
+}
+
+.huruf3{
+	font-family: "Just Tell Me What";
+	color: rgb(89,89,91);
+	font-size: 24.7px;
+	margin-top: 3%;
+	margin-left: 15%;
+	text-align: center;
+	/*animation-delay: .50s;*/
+}
+
+.Gojek{
+	margin-top: 7%;
+	margin-left: 13%;
+	width: 34%;
+	/*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+	/*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+}
+
+#gambar1:hover{
+	-webkit-box-shadow: 1px 1px 5px 5px #21AEFF;
+	box-shadow: 1px 1px 5px 5px #21AEFF;
+}
+
+.Gym{
+	margin-top: -31%;
+	margin-left: 45%; 
+	animation-delay: .45s;
+	width: 34%;
+}
+
+#gambar2:hover{
+	-webkit-box-shadow: 1px 1px 5px 5px #21AEFF;
+	box-shadow: 1px 1px 5px 5px #21AEFF;
+}
+
+.Train{
+	margin-top: -31.5%; 
+	margin-left: 74%;
+	animation-delay: .80s;
+	width: 34%;
+}
+
+#gambar3:hover{
+	-webkit-box-shadow: 1px 1px 5px 5px #21AEFF;
+	box-shadow: 1px 1px 5px 5px #21AEFF;
+}
+
+.pinggir{
+	
+	margin-top: 30%;
+}
+
+.lembap{
+	margin-left: 15%;
+	margin-top: -3%;
+}
+
+.emot{
+	margin-left: 10%;
+	margin-top: -13%;
+	
+    
+}
+
+@-webkit-keyframes emot {
+    0%   {left:0px; top:0px;}
+    /*25%  {left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}*/
+    100% {left:300px; top:0px;}
+}
+
+
+.jalan{
+	position: relative;
+	-webkit-animation-name: emot; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+
+    -webkit-fill-mode: forwards;
+   
+}
+
+.Endjalan{
+	-webkit-animation-name: Endemot; /* Safari 4.0 - 8.0 */
+	margin-left: 38%;
+	margin-top: -13%;
+    -webkit-animation-iteration-count: 0; /* Safari 4.0 - 8.0 */
+}
+
+
+@-webkit-keyframes emotGym {
+    0%   {left:310px; top:0px;}
+    /*25%  {left:200px; top:0px;}*/
+    /*50%  { left:400px; top:0px;}*/
+    /*75%  { left:0px; top:200px;}*/
+    100% {left:580px; top:0px;}
+}
+
+
+@-webkit-keyframes EndemotGym {
+    0%   {left:300px; top:0px;}
+    /*25%  {left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}*/
+    /*100% {left:300px; top:0px;}*/
+}
+
+.jalan2{
+	position: relative;
+	-webkit-animation-name: emotGym; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+}
+
+.Endjalan2{
+	-webkit-animation-name: EndemotGym; /* Safari 4.0 - 8.0 */
+	margin-left: 38%;
+	margin-top: -13%;
+    -webkit-animation-iteration-count: 0; /* Safari 4.0 - 8.0 */
+}
+
+@-webkit-keyframes emotTrain {
+    0%   {left:570px; top:0px;}
+    /*25%  {left:200px; top:0px;}*/
+    /*50%  { left:400px; top:0px;}*/
+    /*75%  { left:0px; top:200px;}*/
+    100% {left:850px; top:0px;}
+}
+
+.jalan3{
+	position: relative;
+	-webkit-animation-name: emotTrain; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+}
