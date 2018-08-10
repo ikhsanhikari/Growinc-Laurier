@@ -111,7 +111,7 @@
 				<img id="img_pointer3" src="img/pointer_1.png">
 			</div>
 			<div class="product_detail">
-				<img id="p_detail" src="img/product_detail.png">
+				<img id="p_detail" src="img/product_detail.png" width="60%">
 			</div>
 		</div>
 		<div class="col-md-1  menu-lp" >

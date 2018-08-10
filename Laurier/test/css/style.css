@@ -134,7 +134,7 @@ body{
 }
 
 @font-face{
-	font-family:"myWebFont"; 
+	font-family:'MyWebFont'; 
 	src:url('../font/Just_tell_me_what_regular.otf');
 
 } /* Kode Import Font */
@@ -359,11 +359,11 @@ body{
 }
 
 .huruf2{
-	font-family: "Just Tell Me What";
+	font-family: 'MyWebFont';
 	color: rgb(89,89,91);
 	font-size: 30px;
 	margin-top: -1%;
-	margin-left: 10%;
+	/*margin-left: 10%;*/
 	text-align: center;
 }
 
@@ -374,7 +374,7 @@ body{
 }
 
 .huruf{
-	font-family: "Just Tell Me What";
+	font-family: 'MyWebFont';
 	color: rgb(89,89,91);
 	font-size: 35px;
 	margin-top: 3%;

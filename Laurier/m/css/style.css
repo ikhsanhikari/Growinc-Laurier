@@ -2,12 +2,12 @@ body{
 	background-color:#e0eaf6; 
 }
 .tlt{
-	font-size: 120px;
+	font-size: 80px;
 	color: rgb(96,118,156);
 	font-family: 'MyWebFont';
 	text-align: center;
-	margin-top: 20%;
-	font-size: 158.13px;
+	margin-top: 60%;
+	/*font-size: 158.13px;*/
 	/*background-color: white;*/
 }
 .menu_kok_bisa{
@@ -43,46 +43,41 @@ body{
 }
 
 .wanita{
-	/*background-color: red;*/
-	/*width: 1200px;*/
-	/*margin-left: 70%;*/
-	margin-top: 3%;
-	margin-right: -80px;
+	
+	margin-top: 17%;
+	margin-left: 10%;
 	float: right;
-	z-index: 1;
+	
+	z-index:1;
 	animation-delay: 0.6s
 }
 
 #dont-get{
-	width: 70%
+	width: 40%
 }
 .dont-get-iritated{
 	animation-delay: 1.5s;
-	/*background-color: blue;*/
-	width: 700px;
-	margin-left: 150px;
+	width: 170%;
+	margin-left: 0%;
+	margin-top: 0%;
 	position: absolute;
-	/*margin-top: 50px;*/
-	z-index: 4;
+	z-index: 2;
 }
 .kata_merasa{
 	animation-delay: 1.9s;
-	margin-top: -300px;
-	width: 30%;
-	/*height: 300px;*/
-	/*background-color: green;*/
-	margin-right: 700px;
+	margin-top: 2%;
+	
+	
+	margin-left: 13%;
 	float: right;
 }
 .tangan-wanita{
-	/*margin-left: 400px;*/
+
 	animation-delay: 1s;
-	z-index: 100;
-	/*background-color: red;*/
-	width: 200px;
-	height: 200px;
-	margin-left: 770px;
-	margin-top: -150px;
+	z-index: 2;
+	position: absolute;
+	margin-top: 57%;
+	margin-left: 42%;
 }
 .menu-lp{
 	margin-top: 200px;
@@ -90,8 +85,8 @@ body{
 }
 .scroll{
 	float: left;
-	margin-top: -110px;
-	margin-left: 300px;
+	margin-top: -3%;
+	margin-left: 40%;
 	animation-delay: 2;
 	/*background-color: red;*/
 }
@@ -472,7 +467,7 @@ body{
 }
 .suhu{
 	margin-top: -510px;
-	margin-left: -250px;
+	margin-left: -200px;
 }
 .tekspara1{
 	color: rgb(96,118,156);
@@ -763,13 +758,13 @@ num {display: none; visibility: hidden;}
 }
 .pointer_1{
 	margin-left: 520px;
-	margin-top: -420px;
+	margin-top: -426px;
 	animation-delay: 1s;
 	/*background-color: red;*/
 }
 .pointer_2{
 	margin-left: 410px;
-	margin-top: 45px;
+	margin-top: 47px;
 	animation-delay: 1s;
 	/*background-color: red;*/
 }
@@ -780,7 +775,7 @@ num {display: none; visibility: hidden;}
 	/*background-color: red;*/
 }
 .gambaran_atas{
-	margin-top: -530px;
+	margin-top: -550px;
 	visibility: hidden;
 	margin-left: -11px;
 	/*animation-delay: 0.8s;*/
@@ -825,7 +820,7 @@ num {display: none; visibility: hidden;}
 .hurufiritasi{
 	font-family: "MyWebFont";
 	color: rgb(89,89,91);
-	font-size: 30px;
+	font-size: 17px;
 	margin-top: 10%;
 	margin-left: 8%;
 	text-align: center;
@@ -834,7 +829,7 @@ num {display: none; visibility: hidden;}
 .hurufiritasi1{
 	font-family: "MyWebFont";
 	color: rgb(89,89,91);
-	font-size: 30px;
+	font-size: 16px;
 	margin-top: -1%;
 	margin-left: 10%;
 	text-align: center;
@@ -1043,146 +1038,4 @@ num {display: none; visibility: hidden;}
 	-webkit-animation-name: emotTrain; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
-}
-
-/*responsive*/
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  
-  
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  	#dont-get{
-  		width: 50%;
-  		
-  	}
-  	#wanita-ld{
-  		width: 70%;	
-  	}
-/*  	.wanita{
-		margin-top: -110px;
-		margin-right: 300px;
-		float: right;
-		z-index: 1;
-		animation-delay: 0.6s
-	}
-	.kata_merasa{
-		animation-delay: 1.9s;
-		margin-top: -300px;
-		width: 10%;
-		margin-right: 700px;
-		float: right;
-	}*/
-  
-}
-
-
-#modal-try{
-	margin-top: 200px;
-	margin-left: 400px;
-	background-color: red;
-}
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 568px) {
-  .wanita{
-			margin-top: -260px;
-			margin-right: -90px;
-			float: right;
-			z-index: 1;
-			width: 70%;
-			animation-delay: 0.6s;
-			visibility: hidden;
-		}
-
-		#dont-get{
-			width: 80%;
-		}
-		.dont-get-iritated{
-			animation-delay: 1.5s;
-			/*background-color: blue;*/
-			width: 700px;
-			margin-left: 150px;
-			/*margin-top: 50px;*/
-			z-index: 0;
-			width: 50%;
-			visibility: hidden;
-		}
-		.kata_merasa{
-			animation-delay: 1.9s;
-			margin-top: -300px;
-			width: 30%;
-			/*height: 300px;*/
-			/*background-color: green;*/
-			margin-right: 650px;
-			float: right;
-			visibility: hidden;
-		}
-		.tangan-wanita{
-			/*margin-left: 400px;*/
-			animation-delay: 1s;
-			z-index: 100;
-			/*background-color: red;*/
-			width: 200px;
-			height: 200px;
-			margin-left: 760px;
-			margin-top: -130px;
-			visibility: hidden;
-		}
-		.menu-lp{
-			margin-top: 200px;
-			/*margin-left: 50px*/
-		}
-		.scroll{
-			float: left;
-			margin-top: -110px;
-			margin-left: 270px;
-			animation-delay: 2;
-			visibility: hidden;
-			/*background-color: red;*/
-		}
-  
 }

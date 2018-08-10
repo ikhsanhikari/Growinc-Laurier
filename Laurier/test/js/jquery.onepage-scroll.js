@@ -415,21 +415,21 @@ function hitung_iritasi(index,score){
           "</div>"+
           "<div class='coba'>"+
           "<a href='IritasiMeter.php'><img src='img/coba.png'></a>"+
-          "</div>");
+          "<a href='http://www.facebook.com/sharer.php?s=100&p[title]=prettySocial%20-%20custom%20social%20share%20buttons.&p[summary]=Custom%20share%20buttons%20for%20Pinterest%2C%20Twitter%2C%20Facebook%20and%20Google%20Plus.&p[url]=http%3A%2F%2F36.72.85.69/Laurier/index.php'><img src='img/btnShare.png'></a></div>");
     } else if (totalscore >=50 && totalscore < 80) {
       $("#container").html("<div class='hasil50'>"+
           "<img src='img/50.png'>"+
           "</div>"+
           "<div class='coba'>"+
           "<a href='IritasiMeter.php'><img src='img/coba.png'></a>"+
-          "</div>");
+          "<a href='http://www.facebook.com/sharer.php?s=100&p[title]=prettySocial%20-%20custom%20social%20share%20buttons.&p[summary]=Custom%20share%20buttons%20for%20Pinterest%2C%20Twitter%2C%20Facebook%20and%20Google%20Plus.&p[url]=http%3A%2F%2F36.72.85.69/Laurier/index.php'><img src='img/btnShare.png'></a></div>");
     }else if (totalscore >= 80) {
       $("#container").html("<div class='hasil50'>"+
           "<img src='img/80.png'>"+
           "</div>"+
           "<div class='coba'>"+
           "<a href='IritasiMeter.php'><img src='img/coba.png'></a>"+
-          "</div>");
+          "<a href='http://www.facebook.com/sharer.php?s=100&p[title]=prettySocial%20-%20custom%20social%20share%20buttons.&p[summary]=Custom%20share%20buttons%20for%20Pinterest%2C%20Twitter%2C%20Facebook%20and%20Google%20Plus.&p[url]=http%3A%2F%2F36.72.85.69/Laurier/index.php'><img src='img/btnShare.png'></a></div>");
     }
   }
 }
