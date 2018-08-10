@@ -379,10 +379,10 @@ function hitung_iritasi(index,score){
       "</div>"+
       "<div class='col-md-6'>"+
         "<div class='hanger'>"+
-          "<img src='img/cewek_sedih.png' class='responsive' id='hanger' onclick='hitung_iritasi(6,20)'>"+
+          "<img src='img/cewek_sedih.png' class='responsive' id='cewek_sedih_css' onclick='hitung_iritasi(6,20)'>"+
         "</div>"+
         "<div class='seneng'>"+
-          "<img src='img/cewek_seneng.png' class='responsive' id='tisu' onclick='hitung_iritasi(6,0)'>"+
+          "<img src='img/cewek_seneng.png' class='responsive' id='cewek_seneng_css' onclick='hitung_iritasi(6,0)'>"+
         "</div>"+
       "</div>"+
       "<div class='col-md-2'>"+

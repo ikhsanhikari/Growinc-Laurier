@@ -35,20 +35,20 @@
               <form action="page/send_email.php" name="form_send_email" id="myForm" method="POST">
                   <div class="row">
                     <div class="col-md-12">
-                      <center><input placeholder="Nama" type="text" name="nama"></center>  
+                      <center><input placeholder="Nama" type="text" required="true" name="nama"></center>  
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-12">
-                      <center><input type="text" placeholder="Alamat" name="alamat"></center>  
+                      <center><input type="text" placeholder="Alamat" required="true" name="alamat"></center>  
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6">
-                      <input class="pull-right" type="text" name="no_telp" placeholder="No. Telp">
+                      <input class="pull-right" type="text" name="no_telp" required="true" placeholder="No. Telp">
                     </div>
                     <div class="col-md-6">
-                      <input type="text" name="emailuser" placeholder="Email">
+                      <input type="text" name="emailuser" required="true" placeholder="Email">
                     </div>
                   </div>
                   <div class="row">

@@ -133,12 +133,11 @@ body{
 	margin-top: -8%;
 }
 
-@font-face{
-	font-family:"Just tell me what"; 
-	src:url('../font/Just_tell_me_what_regular.otf');
 
-} /* Kode Import Font */
-
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../font/Just_tell_me_what_regular.otf')
+}
 
 .kata{
 	font-family: "Just Tell Me What";

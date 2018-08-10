@@ -74,12 +74,12 @@ if($is_mobile == FALSE){
 			<?php include("page/landing_page.php") ?>
 		</section>
 		
-		<section class="page two" id="two" style="background-color:#e0eaf6;">
-			<?php include("page/iritation_statistic.php") ?>
+		<section class="page two" id="two" >
+			<?php //include("page/iritation_statistic.php") ?>
 		</section>
 		
-		<section class="page three" style="background-color:#e0eaf6;">
-			<?php include("page/kok_bisa.php") ?>
+		<section class="page three" >
+			<?php //include("page/kok_bisa.php") ?>
 		</section>
 
 

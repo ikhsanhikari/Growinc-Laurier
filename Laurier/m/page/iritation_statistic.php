@@ -30,14 +30,12 @@
 <div class="row">
 		<div class="col-md-11">
 			<div>
-				<h1 class="hurufiritasi">Tahukah kamu, bahwa faktanya 8 dari 10 cewek </h1>
-				<h1 class="hurufiritasi1">berpotensi mengalami iritasi di area kewanitaan </h1>
-				<h1 class="hurufiritasi1">mereka saat lagi menstruasi?</h1>
+				<h1 class="hurufiritasi">Tahukah kamu, bahwa faktanya 8 dari 10 cewek berpotensi</h1>
+				<h1 class="hurufiritasi1">mengalami iritasi di area kewanitaan mereka saat lagi menstruasi?</h1>
 			</div>
 			<div class="iritation-statistic" >
-				<img  src="img/wanita1-5.png" id="g8" width="80%">
-				<img  src="img/wanita6-8.png" id="g2" width="50%" style="margin-left: -5px" >
-				<img  src="img/wanita9-10.png" id="g2" width="36%" style="margin-left: -5px" >
+				<img  src="img/8girl.png" id="g8">
+				<img  src="img/2girl.png" id="g2" style="margin-left: -40px" >
 			</div>
 		</div>
 		<div class="col-md-1  menu-lp" >

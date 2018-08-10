@@ -1,11 +1,11 @@
 <div class="row">
 				<div class="col-md-11">
 					<h1 class="tlt" >Kok Bisa </h1> 
-					<div  style="margin-top:-45px;animation-delay: 1s" id="petir" >
-						<center><img src="img/petir.png" class="responsive" width="70%"></center>
+					<div  style="width:100%;margin-top:-70px;animation-delay: 1s" id="petir" >
+						<center><img src="img/petir.png" class="responsive"></center>
 					</div>		
 				</div>
-		<!-- <div class="col-md-1  menu-lp" >
+		<div class="col-md-1  menu-lp" >
 			<div  class="row" style="margin-left: -80px;color: #59595b;font-family: 'myWebFont';">
 				<label style="visibility: hidden;" class="txt-story">
 					Full Story	
@@ -39,7 +39,7 @@
 				<a data-toggle="modal" style="float: right;margin-top: -50px;margin-right: 35px" data-target="#myModal" ><img class="btn-try" src="img/btn-try.png"></a>
 					
 			</div>
-		</div> -->
+		</div>
 </div>
 
 

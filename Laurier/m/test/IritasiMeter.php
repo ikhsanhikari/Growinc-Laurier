@@ -110,48 +110,55 @@ if($is_mobile == TRUE){
 		</section>
 		
 		<section class="page two" id="two" >
-			<div>
-		<h1 class="huruf tlt">#DontGetIrritated to Care,#DontDontGetIrritated to Share!</h1>
-		<h1 class="huruf2 tlt">Sharing is caring,Girls! pilih dan share faktanya ke orang terdekatmu</h1>
-		<h1 class="huruf2 tlt">agar mereka lebih peduli kesehatan kulit selama mensturasi</h1>
-	</div>
+			<div style="width: 100%; background-color: red">
+				<center>
+					<h1 class="huruf" style="font-family: 'MyWebFont'">#DontGetIrritated to Care,#DontDontGetIrritated to Share!</h1>
+				</center>
+				<center>
+					<h1 class="huruf2">Sharing is caring,Girls! pilih dan share faktanya ke orang terdekatmu</h1>
+				</center>
+				<center>
+					<h1 class="huruf2">agar mereka lebih peduli kesehatan kulit selama mensturasi</h1>
+				</center>
+					
+			</div>
 
-	<div class="slider">
-	  <img src="img/bingkai.png" style="width: 65%; margin-top: -1%;">
-	  <img class="mySlides" src="img/sub_iritation.png" style="width: 55%; margin-top: -37%; margin-left: 5%;">
-	  <img class="mySlides" src="img/sub_iritation2.png" style="width: 55%; margin-top: -37%; margin-left: 5%;">
-	  <img class="mySlides" src="img/sub_iritation3.png" style="width: 55%; margin-top: -37%; margin-left: 5%;">
-	  <img class="mySlides" src="img/sub_iritation4.png" style="width: 55%; margin-top: -37%; margin-left: 5%; ">
+				<div class="slider">
+				  <img src="img/bingkai.png" style="width: 65%; margin-top: -1%;">
+				  <img class="mySlides" src="img/sub_iritation.png" style="width: 55%; margin-top: -37%; margin-left: 5%;">
+				  <img class="mySlides" src="img/sub_iritation2.png" style="width: 55%; margin-top: -37%; margin-left: 5%;">
+				  <img class="mySlides" src="img/sub_iritation3.png" style="width: 55%; margin-top: -37%; margin-left: 5%;">
+				  <img class="mySlides" src="img/sub_iritation4.png" style="width: 55%; margin-top: -37%; margin-left: 5%; ">
 
-	  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-	  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-	</div>
-	
-	<div>
-		<a href="http://www.facebook.com/sharer.php?s=100&p[title]=prettySocial%20-%20custom%20social%20share%20buttons.&p[summary]=Custom%20share%20buttons%20for%20Pinterest%2C%20Twitter%2C%20Facebook%20and%20Google%20Plus.&p[url]=http%3A%2F%2F36.72.85.69/Laurier/index.php"><img src="img/btnShare.png" style="margin-left: 38%; margin-top: 3%;"></a>
-	</div>
+				  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+				</div>
+				
+				<div>
+					<a href="http://www.facebook.com/sharer.php?s=100&p[title]=prettySocial%20-%20custom%20social%20share%20buttons.&p[summary]=Custom%20share%20buttons%20for%20Pinterest%2C%20Twitter%2C%20Facebook%20and%20Google%20Plus.&p[url]=http%3A%2F%2F36.72.85.69/Laurier/index.php"><img src="img/btnShare.png" style="margin-left: 38%; margin-top: 3%;"></a>
+				</div>
 
 
 
-	<script>
-		var slideIndex = 1;
-		showDivs(slideIndex);
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
 
-		function plusDivs(n) {
-		  showDivs(slideIndex += n);
-		}
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
 
-		function showDivs(n) {
-		  var i;
-		  var x = document.getElementsByClassName("mySlides");
-		  if (n > x.length) {slideIndex = 1}    
-		  if (n < 1) {slideIndex = x.length}
-		  for (i = 0; i < x.length; i++) {
-		     x[i].style.display = "none";  
-		  }
-		  x[slideIndex-1].style.display = "block";  
-		}
-	</script>
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides");
+					  if (n > x.length) {slideIndex = 1}    
+					  if (n < 1) {slideIndex = x.length}
+					  for (i = 0; i < x.length; i++) {
+					     x[i].style.display = "none";  
+					  }
+					  x[slideIndex-1].style.display = "block";  
+					}
+				</script>
 		</section>
 		
 		
